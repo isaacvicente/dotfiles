@@ -1,0 +1,30 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+# Run Firefox with Wayland instead of XWayland
+if [ "$XDG_SESSION_TYPE" == "wayland" ]; then
+    export MOZ_ENABLE_WAYLAND=1
+fi
+
+## XDG Base Directory global variables
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+# For rustup
+export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
+# For cargo
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+
+# For parallel home
+export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
+
+# For less
+export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+
+# For GnuPG
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg

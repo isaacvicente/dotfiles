@@ -1,0 +1,32 @@
+#######################
+## ~/.aliases 
+#######################
+
+## Modified commands
+alias grep='grep --color=auto'
+alias more='less'
+alias df='df -h'
+alias du='du -c -h'
+alias mkdir='mkdir -p -v'
+alias nano='nano -w'
+alias ping='ping -c 5'
+alias dmesg='dmesg -HL'
+
+## Safety features
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -I'                    # 'rm -i' prompts for every file
+
+## ls
+alias l.='ls -lhad \.*'
+alias ls='ls -hF --color=auto'
+alias lr='ls -R'                    # Recursive ls
+alias ll='ls -l'
+alias la='ll -A'
+alias lx='ll -BX'                   # Sort by extension
+alias lz='ll -rS'                   # Sort by size
+alias lt='ll -rt'                   # Sort by date
+alias lm='la | more'
+
+## wget XDG Base Directory support
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"

@@ -1,0 +1,33 @@
+###############
+## ~/.bashrc ##
+###############
+
+## If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# XDG Base Directory global variables
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+mkdir -p "$XDG_STATE_HOME"/bash
+export HISTFILE="$XDG_STATE_HOME"/bash/history
+
+## Bash functions (https://wiki.archlinux.org/title/Bash/Functions)
+# cd and ls in one
+cl() {
+	local dir="$1"
+	local dir="${dir:=$HOME}"
+	if [[ -d "$dir" ]]; then
+		cd "$dir" >/dev/null; ls --color=auto
+	else
+		echo "bash: cl: $dir: Directory not found"
+	fi
+}
+
+## Source the ~/.aliases file
+source ~/.aliases
+
+## Bash prompt
+PS1='[\u@\h \W]\$ '
