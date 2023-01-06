@@ -1,0 +1,6 @@
+[submodule "dot_vim/pack/plugins/start/lightline"]
+	path = dot_vim/pack/plugins/start/lightline
+	url = git@github.com:isaacvicente/lightline.vim.git
+[submodule "dot_vim/pack/colors/opt/gruvbox-material"]
+	path = dot_vim/pack/colors/opt/gruvbox-material
+	url = https://github.com/sainnhe/gruvbox-material.git
