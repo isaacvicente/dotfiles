@@ -4,3 +4,15 @@
 [submodule "dot_vim/pack/colors/opt/gruvbox-material"]
 	path = dot_vim/pack/colors/opt/gruvbox-material
 	url = https://github.com/sainnhe/gruvbox-material.git
+[submodule "private_dot_config/zsh/zsh-autosuggestions"]
+	path = private_dot_config/zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "private_dot_config/zsh/zsh-completions"]
+	path = private_dot_config/zsh/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "private_dot_config/zsh/zsh-syntax-highlighting"]
+	path = private_dot_config/zsh/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "private_dot_config/zsh/powerlevel10k"]
+	path = private_dot_config/zsh/powerlevel10k
+	url = https://gitee.com/romkatv/powerlevel10k.git

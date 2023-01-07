@@ -27,7 +27,9 @@ cl() {
 }
 
 ## Source the ~/.aliases file
-source ~/.aliases
+if [[ -f ~/.aliases ]]; then
+	source ~/.aliases
+fi
 
 ## Bash prompt
 PS1='[\u@\h \W]\$ '
