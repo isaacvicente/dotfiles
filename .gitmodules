@@ -15,4 +15,4 @@
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule "private_dot_config/zsh/powerlevel10k"]
 	path = private_dot_config/zsh/powerlevel10k
-	url = https://gitee.com/romkatv/powerlevel10k.git
+	url = https://github.com/romkatv/powerlevel10k.git
