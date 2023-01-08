@@ -7,29 +7,71 @@
 "   ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
 "
 
+" ---------------------------------------------------------
+" Sane defaults
+" ---------------------------------------------------------
 
-" Turn on syntax highlighting.
-syntax on
-filetype plugin on
+" You want Vim, not vi. When Vim finds a vimrc, 'nocompatible' is set anyway.
+" We set it explicitely to make our position clear!
+set nocompatible
 
-" The indent file for specific file types can be loaded with
-filetype indent on
+filetype plugin indent on  " Load plugins according to detected filetype.
+syntax on                  " Enable syntax highlighting.
 
-" Only redraw when necessary.
-set lazyredraw
+set number                 " Show line numbers.
+set relativenumber         " Enables relative line numbering mode.
+set autoindent             " Indent according to previous line.
+set expandtab              " Use spaces instead of tabs.
+set softtabstop =4         " Tab key indents by 4 spaces.
+set shiftwidth  =4         " >> indents by 4 spaces.
+set shiftround             " >> indents to next multiple of 'shiftwidth'.
+set scrolloff   =4         " Keep 4 lines below and above the cursor
 
-" Enable fast terminal connections
-set ttyfast
+set noerrorbells visualbell t_vb=  " Disable audible bell because it's annoying.
+set shortmess   +=I        " Disable the default Vim startup message.
+set mouse       +=a        " Enable mouse support.
+
+set backspace   =indent,eol,start  " Make backspace work as you would expect.
+set hidden                 " Switch between buffers without having to save first.
+set laststatus  =2         " Always show statusline.
+set display     =lastline  " Show as much as possible of the last line.
+
+set showmode               " Show current mode in command-line.
+set showcmd                " Show already typed keys when more are expected.
+set wildmenu               " Shows a more advanced menu for auto-completion suggestions.
+
+set incsearch              " Highlight while searching with / or ?.
+set ignorecase             " If using just lowercase characters, search case insensitive.
+set smartcase              " If using at least one uppercase character, search case sensitive.
+
+set ttyfast                " Faster redrawing.
+set lazyredraw             " Only redraw when necessary.
+
+set splitbelow             " Open new windows below the current window.
+set splitright             " Open new windows right of the current window.
+
+set cursorline             " Find the current line quickly.
+set wrapscan               " Searches wrap around end-of-file.
+set report      =0         " Always report changed lines.
+set synmaxcol   =200       " Only highlight the first 200 columns.
+
+set list                   " Show non-printable characters.
+if has('multi_byte') && &encoding ==# 'utf-8'
+  let &listchars = 'tab:▸ ,extends:❯,precedes:❮,nbsp:±'
+else
+  let &listchars = 'tab:> ,extends:>,precedes:<,nbsp:.'
+endif
+
+" Q in normal mode enters Ex mode. You almost never want this.
+nmap Q <Nop> 
+
+" ---------------------------------------------------------
+" GUI related
+" ---------------------------------------------------------
 
 " Search down into subfolders
 " Provides tab-completion for all file-related tasks
 set path+=**
-
-" Display all matching files when tab complete
-set wildmenu
-
-" Disable the default Vim startup message.
-set shortmess+=I
 
 " Enable more colors so you can use the Catppuccin color scheme
 set termguicolors
@@ -40,77 +82,10 @@ colorscheme catppuccin_mocha
 " Or... set the gruvbox-material theme
 " colorscheme gruvbox-material
 
-" (https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces)
-" For tab characters that appear 4-spaces-wide:
-set tabstop=4
-" If you're using actual tab character in your source code you probably
-" also want these settings (these are actually the defaults, but you may want
-" to set them defensively):
-set softtabstop=0 noexpandtab
-" Finally, if you want an indent to correspond to a single tab, you should also use:
-set shiftwidth=4
 
-" Show line numbers.
-set number
-
-" This enables relative line numbering mode. With both number and
-" relativenumber enabled, the current line shows the true line number, while
-" all other lines (above and below) are numbered relative to the current line.
-" This is useful because you can tell, at a glance, what count is needed to
-" jump up or down to a particular line, by {count}k to go up or {count}j to go
-" down.
-set relativenumber
-
-" Always show the status line at the bottom, even if you only have one window open.
-set laststatus=2
-
-" The backspace key has slightly unintuitive behavior by default. For example,
-" by default, you can't backspace before the insertion point set with 'i'.
-" This configuration makes backspace behave more reasonably, in that you can
-" backspace over anything.
-set backspace=indent,eol,start
-
-" By default, Vim doesn't let you hide a buffer (i.e. have a buffer that isn't
-" shown in any window) that has unsaved changes. This is to prevent you from 
-" forgetting about unsaved changes and then quitting e.g. via `:qa!`. We find
-" hidden buffers helpful enough to disable this protection. See `:help hidden`
-" for more information on this.
-set hidden
-
-" This setting makes search case-insensitive when all characters in the string
-" being searched are lowercase. However, the search becomes case-sensitive if
-" it contains any capital letters. This makes searching more convenient.
-set ignorecase
-set smartcase
-
-" Enable searching as you type, rather than waiting till you press enter.
-set incsearch
-
-" Unbind some useless/annoying default key bindings.
-nmap Q <Nop> " 'Q' in normal mode enters Ex mode. You almost never want this.
-
-" Disable audible bell because it's annoying.
-set noerrorbells novisualbell t_vb=
-
-" Enable mouse support. You should avoid relying on this too much, but it can
-" sometimes be convenient.
-set mouse+=a
-
-" Try to prevent bad habits like using the arrow keys for movement. This is
-" not the only possible bad habit. For example, holding down the h/j/k/l keys
-" for movement, rather than using more efficient movement commands, is also a
-" bad habit. The former is enforceable through a .vimrc, while we don't know
-" how to prevent the latter.
-" Do this in normal mode...
-nnoremap <Left>  :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up>    :echoe "Use k"<CR>
-nnoremap <Down>  :echoe "Use j"<CR>
-" ...and in insert mode
-inoremap <Left>  <ESC>:echoe "Use h"<CR>
-inoremap <Right> <ESC>:echoe "Use l"<CR>
-inoremap <Up>    <ESC>:echoe "Use k"<CR>
-inoremap <Down>  <ESC>:echoe "Use j"<CR>
+" ---------------------------------------------------------
+" Plugins related
+" ---------------------------------------------------------
 
 " Pack the Gruvbox-material plugin
 packadd! gruvbox-material

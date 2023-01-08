@@ -2,6 +2,6 @@
 export ZDOTDIR="$HOME/.config/zsh"
 
 # Run Firefox with Wayland instead of XWayland
-if [ "$XDG_SESSION_TYPE" == "wayland" ]; then
+if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
     export MOZ_ENABLE_WAYLAND=1
 fi
