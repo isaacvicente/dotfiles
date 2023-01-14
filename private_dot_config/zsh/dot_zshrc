@@ -18,11 +18,19 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+if [[ -f ~/.aliases ]]; then
+  source ~/.aliases
+fi
+
 # Extend PATH so that it's possible to run user binaries
 export PATH=~/.local/bin:$PATH
 
 # Set Vim as the Git local text editor
 export GIT_EDITOR=vim
+
+# Make ESC a little faster in Zsh
+# (https://www.johnhawthorn.com/2012/09/vi-escape-delays/)
+export KEYTIMEOUT=1
 
 # Set the Cattpuccin theme for fzf
 export FZF_DEFAULT_OPTS=" \

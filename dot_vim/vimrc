@@ -44,6 +44,8 @@ set incsearch              " Highlight while searching with / or ?.
 set ignorecase             " If using just lowercase characters, search case insensitive.
 set smartcase              " If using at least one uppercase character, search case sensitive.
 
+set timeoutlen=1000 ttimeoutlen=0   " Make ESC a little faster
+
 set ttyfast                " Faster redrawing.
 set lazyredraw             " Only redraw when necessary.
 
