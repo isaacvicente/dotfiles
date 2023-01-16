@@ -19,3 +19,6 @@
 [submodule "private_dot_config/tmux/plugins/tpm"]
 	path = private_dot_config/tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "private_dot_config/bat/themes/catppuccin"]
+	path = private_dot_config/bat/themes/catppuccin
+	url = https://github.com/catppuccin/bat
