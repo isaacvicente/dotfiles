@@ -18,7 +18,7 @@
 	url = https://github.com/romkatv/powerlevel10k.git
 [submodule "private_dot_config/tmux/plugins/tpm"]
 	path = private_dot_config/tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
+	url = git@github.com:isaacvicente/tpm.git
 [submodule "private_dot_config/bat/themes/catppuccin"]
 	path = private_dot_config/bat/themes/catppuccin
 	url = https://github.com/catppuccin/bat
