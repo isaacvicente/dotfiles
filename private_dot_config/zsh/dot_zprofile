@@ -18,5 +18,8 @@ export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 # For less
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
+# For ripgrep
+export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
+
 # For GnuPG
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
