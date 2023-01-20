@@ -22,6 +22,3 @@
 [submodule "private_dot_config/tmux/plugins/tpm"]
 	path = private_dot_config/tmux/plugins/tpm
 	url = git@github.com:isaacvicente/tpm.git
-[submodule "private_dot_config/btop/themes/catppuccin"]
-	path = private_dot_config/btop/themes/catppuccin
-	url = https://github.com/catppuccin/btop.git
