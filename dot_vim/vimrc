@@ -44,7 +44,7 @@ set incsearch              " Highlight while searching with / or ?.
 set ignorecase             " If using just lowercase characters, search case insensitive.
 set smartcase              " If using at least one uppercase character, search case sensitive.
 
-set timeoutlen=1000 ttimeoutlen=0   " Make ESC a little faster
+set timeoutlen=500 ttimeoutlen=0   " Make ESC a little faster
 
 set ttyfast                " Faster redrawing.
 set lazyredraw             " Only redraw when necessary.
@@ -59,6 +59,45 @@ set synmaxcol   =200       " Only highlight the first 200 columns.
 
 " Q in normal mode enters Ex mode. You almost never want this.
 nmap Q <Nop> 
+
+" ---------------------------------------------------------
+" Mappings
+" ---------------------------------------------------------
+
+"" Set the leader key as <Space>
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+
+"" Saner behavior of n and N
+" n to always search forward and N backward
+" (https://github.com/mhinz/vim-galore#saner-behavior-of-n-and-n)
+nnoremap <expr> n  'Nn'[v:searchforward]
+xnoremap <expr> n  'Nn'[v:searchforward]
+onoremap <expr> n  'Nn'[v:searchforward]
+
+nnoremap <expr> N  'nN'[v:searchforward]
+xnoremap <expr> N  'nN'[v:searchforward]
+onoremap <expr> N  'nN'[v:searchforward]
+
+"" Saner command-line history
+" (https://github.com/mhinz/vim-galore#saner-command-line-history)
+cnoremap <expr> <c-n> wildmenumode() ? "\<c-n>" : "\<down>"
+cnoremap <expr> <c-p> wildmenumode() ? "\<c-p>" : "\<up>"
+
+"" Saner CTRL-L
+" (https://github.com/mhinz/vim-galore#saner-ctrl-l)
+nnoremap <leader>l :nohlsearch<cr>:diffupdate<cr>:syntax sync fromstart<cr><c-l>
+
+"" Quickly move current line
+" (https://github.com/mhinz/vim-galore#quickly-move-current-line)
+" Sometimes I need a quick way to move the current line above or below
+nnoremap [e  :<c-u>execute 'move -1-'. v:count1<cr>
+nnoremap ]e  :<c-u>execute 'move +'. v:count1<cr>
+
+"" Don't lose selection when shifting sidewards
+" (https://github.com/mhinz/vim-galore#dont-lose-selection-when-shifting-sidewards)
+xnoremap <  <gv
+xnoremap >  >gv
 
 " ---------------------------------------------------------
 " GUI related
