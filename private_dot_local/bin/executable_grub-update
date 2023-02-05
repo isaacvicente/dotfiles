@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Select the EFI partition
+ESP="/boot"
+
+# Run grub-mkconfig only if grub-install was succeeded
+sudo grub-install --target=x86_64-efi --efi-directory=$ESP --bootloader-id=GRUB \
+	&& sudo grub-mkconfig -o /boot/grub/grub.cfg
