@@ -118,6 +118,18 @@ vim.o.smartcase = true
 vim.o.updatetime = 250
 vim.wo.signcolumn = 'yes'
 
+-- Four spaces as the default indentation
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
+-- Want my indentation to be smart
+vim.opt.smartindent = true
+
+-- Better navegation
+vim.opt.scrolloff = 6
+
 -- Set colorscheme
 vim.o.termguicolors = true
 -- vim.cmd [[colorscheme catppuccin-mocha]]

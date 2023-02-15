@@ -79,6 +79,9 @@ nnoremap <expr> N  'nN'[v:searchforward]
 xnoremap <expr> N  'nN'[v:searchforward]
 onoremap <expr> N  'nN'[v:searchforward]
 
+" Yank from cursor to the end of line
+nnoremap Y y$
+
 "" Saner command-line history
 " (https://github.com/mhinz/vim-galore#saner-command-line-history)
 cnoremap <expr> <c-n> wildmenumode() ? "\<c-n>" : "\<down>"
