@@ -29,4 +29,4 @@ alias lt='ll -rt'                   # Sort by date
 alias lm='la | more'
 
 ## wget XDG Base Directory support
-alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'

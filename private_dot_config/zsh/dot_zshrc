@@ -33,10 +33,12 @@ export GIT_EDITOR=vim
 export KEYTIMEOUT=1
 
 # Set the Cattpuccin theme for fzf
-export FZF_DEFAULT_OPTS=" \
---color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
---color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
---color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
+# export FZF_DEFAULT_OPTS=" \
+# --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+# --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+# --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
+
+source ~/.config/fzf/config
 
 source "$ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme"
 
@@ -46,3 +48,4 @@ source "$ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme"
 fpath=("$ZDOTDIR/zsh-completions/src" $fpath)
 source "$ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source "$ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" 2> /dev/null # Must be at end
+
