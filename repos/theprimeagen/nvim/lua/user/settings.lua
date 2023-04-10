@@ -10,4 +10,4 @@ vim.opt.smartindent = true
 
 vim.opt.scrolloff = 5
 
-vim.keymap.set("n", "Q", "<NOP>")
+vim.keymap.set("n", "Q", "<Nop>")

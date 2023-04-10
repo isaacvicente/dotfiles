@@ -27,3 +27,6 @@ export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 
 # For the grip markdown previewer
 export GRIPHOME="$XDG_CONFIG_HOME/grip"
+
+# For random Android stuff
+ANDROID_HOME="$XDG_DATA_HOME/android"

@@ -30,7 +30,7 @@ return require('packer').startup(function(use)
 	ts_update()
     end,
   }
-  
+
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v1.x',
@@ -39,7 +39,7 @@ return require('packer').startup(function(use)
       {'neovim/nvim-lspconfig'},             -- Required
       {'williamboman/mason.nvim'},           -- Optional
       {'williamboman/mason-lspconfig.nvim'}, -- Optional
-  
+
       -- Autocompletion
       {'hrsh7th/nvim-cmp'},         -- Required
       {'hrsh7th/cmp-nvim-lsp'},     -- Required
@@ -47,7 +47,7 @@ return require('packer').startup(function(use)
       {'hrsh7th/cmp-path'},         -- Optional
       {'saadparwaiz1/cmp_luasnip'}, -- Optional
       {'hrsh7th/cmp-nvim-lua'},     -- Optional
-  
+
       -- Snippets
       {'L3MON4D3/LuaSnip'},             -- Required
       {'rafamadriz/friendly-snippets'}, -- Optional
@@ -56,7 +56,7 @@ return require('packer').startup(function(use)
 
   -- Our lovely cat theme
   use { "catppuccin/nvim", as = "catppuccin" }
-  
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then

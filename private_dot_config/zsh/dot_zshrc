@@ -23,7 +23,7 @@ if [[ -f ~/.aliases ]]; then
 fi
 
 # Extend PATH so that it's possible to run user binaries
-export PATH=~/.local/bin:$PATH
+export PATH=~/.local/share/cargo/bin:~/.local/bin:$PATH
 
 # Set Vim as the Git local text editor
 export GIT_EDITOR=vim
@@ -32,11 +32,18 @@ export GIT_EDITOR=vim
 # (https://www.johnhawthorn.com/2012/09/vi-escape-delays/)
 export KEYTIMEOUT=1
 
+# I want a colorful `ls`
+eval "$(dircolors)"
+
 # Set the Cattpuccin theme for fzf
 # export FZF_DEFAULT_OPTS=" \
 # --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
 # --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 # --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
+
+function dirlididi() {
+  python ~/java/dirlididi.py submit $1 hjwbdO3CqmLR $2
+}
 
 source ~/.config/fzf/config
 
