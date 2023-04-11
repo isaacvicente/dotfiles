@@ -17,6 +17,11 @@ export HISTFILE="$XDG_STATE_HOME"/bash/history
 # I want a colorful `ls`
 eval "$(dircolors)"
 
+if command -v zoxide &> /dev/null
+then
+    eval "$(zoxide init bash)"
+fi
+
 ## Bash functions (https://wiki.archlinux.org/title/Bash/Functions)
 # cd and ls in one
 cl() {
