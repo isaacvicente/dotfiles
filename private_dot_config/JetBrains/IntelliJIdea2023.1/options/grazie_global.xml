@@ -1,0 +1,10 @@
+<application>
+  <component name="GraziConfig">
+    <option name="enabledLanguages">
+      <set>
+        <option value="English (US)" />
+        <option value="Portuguese (Brazil)" />
+      </set>
+    </option>
+  </component>
+</application>

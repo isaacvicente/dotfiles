@@ -1,0 +1,14 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/.cache/JetBrains/IntelliJIdea2023.1/demo/IdeaLearningProject" value="true" />
+        <entry key="$USER_HOME$/eli/lp2/lab02" value="true" />
+        <entry key="$USER_HOME$/repos/lp2/lab01" value="true" />
+        <entry key="$USER_HOME$/repos/lp2/lab02" value="true" />
+        <entry key="$USER_HOME$/repos/lp2/lab03" value="true" />
+        <entry key="$USER_HOME$/repos/lp2/sim01" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

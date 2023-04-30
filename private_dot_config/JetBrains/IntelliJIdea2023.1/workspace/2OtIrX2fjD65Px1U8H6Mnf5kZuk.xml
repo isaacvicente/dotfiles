@@ -1,0 +1,284 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="sim01" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myColumnSize">
+      <list>
+        <option value="78" />
+        <option value="81" />
+        <option value="81" />
+        <option value="210" />
+      </list>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HugsAndSmiles/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+              <folding>
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HugsAndSmiles/DogHost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/tests/HugsAndSmiles/DogHostTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="DIFF">
+      <summary usageCount="5" lastUsed="1682385318576" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="12" lastUsed="1682719840854" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Dog.java" />
+      <option value="$PROJECT_DIR$/src/DogHost.java" />
+      <option value="$PROJECT_DIR$/src/HugsAndSmiles/Dog.java" />
+      <option value="$PROJECT_DIR$/src/HugsAndSmiles/DogHost.java" />
+      <option value="$PROJECT_DIR$/src/SIMULADOP1_ISAAC_VICENTE/DogHost.java" />
+      <option value="$PROJECT_DIR$/tests/HugsAndSmiles/DogHostTest.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="12" lastUsage="1682719840854" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sim01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/lp2/sim01}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$USER_HOME$">
+        <shellCommand>
+          <arg value="/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 00m 53s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 03m 48s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 11m 10s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 12m 42s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 13m 35s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 15m 12s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 15m 34s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 27m 22s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogHostTest - 2023.04.24 at 22h 32m 25s.xml">
+      <configuration name="DogHostTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10622000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33295798" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" show_stripe_button="false" weight="0.3297568" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3297568" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.33446866" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.3297568" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Notifications" order="0" sideWeight="0.5012563" weight="0.3305271" />
+      <window_info anchor="right" id="Database" order="1" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.4987437" side_tool="true" weight="0.3305271" />
+      <window_info anchor="right" id="Web Inspector" order="5" weight="0.25" />
+      <unified_weights bottom="0.33446866" left="0.33295798" right="0.3305271" />
+    </layoutV2>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Project</value>
+      <value>Notifications</value>
+      <value>Coverage</value>
+      <value>Run</value>
+      <value>Find</value>
+      <value>Problems View</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1284" height="188" key="GridCell.Tab.0.bottom" timestamp="1682387702847">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1682387702847" />
+    <state width="1284" height="188" key="GridCell.Tab.0.center" timestamp="1682387702845">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1682387702845" />
+    <state width="1284" height="188" key="GridCell.Tab.0.left" timestamp="1682387702845">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1682387702845" />
+    <state width="1284" height="188" key="GridCell.Tab.0.right" timestamp="1682387702846">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1682387702846" />
+    <state x="215" y="197" width="824" height="540" key="IDE.errors.dialog" timestamp="1682383842421">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="215" y="197" width="824" height="540" key="IDE.errors.dialog/0.32.1366.736@0.32.1366.736" timestamp="1682383842421" />
+    <state x="332" y="32" width="1024" height="736" key="SettingsEditor" timestamp="1682386163516">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="332" y="32" width="1024" height="736" key="SettingsEditor/0.32.1366.736@0.32.1366.736" timestamp="1682386163516" />
+    <state x="523" y="293" width="631" height="221" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1682381254291">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="523" y="293" width="631" height="221" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.32.1366.736@0.32.1366.736" timestamp="1682381254291" />
+    <state x="798" y="134" width="442" height="538" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1682381370312">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="798" y="134" width="442" height="538" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.32.1366.736@0.32.1366.736" timestamp="1682381370312" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/HugsAndSmiles/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HugsAndSmiles/DogHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/HugsAndSmiles/DogHostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sim01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit.jupiter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

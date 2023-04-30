@@ -1,0 +1,94 @@
+<application>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+    <languageToProjectMap>
+      <entry key="JAVA" value="$USER_HOME$/.cache/JetBrains/IntelliJIdea2023.1/demo/IdeaLearningProject" />
+    </languageToProjectMap>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "GRAZIE_RULE_FILTER": "spell",
+    "JUnitSupport.hidePassedTests": "false",
+    "MarketplacePluginsSearchHistory": "presence\npresen\nprese\ngruvbox\ngruvb",
+    "NewProjectWizard.addSampleCodeState": "false",
+    "NewProjectWizard.groupIdState": "org.example",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.se.text.search": "true",
+    "SettingsSearchHistory": "spell",
+    "appcds.runOnSecondStart": "IU-231.8770.65-4d3ec1da8bf2462ca940d4bd343ccc073a84557194dacd10168f575485b30b10",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IU-231.8770.65",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "debugger.smart.chooser.counter": "3",
+    "decompiler.legal.notice.accepted": "true",
+    "defaultJdkConfigured": "true",
+    "evlsprt3.231": "22",
+    "experimental.ui.first.promotion.localdate": "2023-03-30",
+    "experimental.ui.used.once": "true",
+    "file.gist.reindex.count": "29",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "12.0",
+    "fontSizeToResetEditor": "12.0",
+    "got.it.tooltip.coverage.view.elements.filter": "1",
+    "got.it.tooltip.extract.method.gotit.navigate": "1",
+    "got.it.tooltip.reader.mode.got.it": "1",
+    "got.it.tooltip.reset.lesson.got.it": "1",
+    "gotit.previous.run": "IU-231.8770.65",
+    "ide.memory.adjusted": "true",
+    "ideavim.statistics.timestamp": "1682719853957",
+    "ift.idea.onboarding.feedback.proposed": "true",
+    "ift.learning.panel.opened.in": "231.8109.175",
+    "installed.kotlin.plugin.version": "231-1.8.21-IJ8770.65",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/zak/repos/lp2",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Dark",
+    "project.wizard.group": "NPW.simple-project",
+    "registry.to.advanced.settings.migration.build": "IU-231.8770.65",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "4.8.4"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/zak/repos/lp2/lab02",
+      "/home/zak/repos/lp2/lab03",
+      "/home/zak/eli/lp2/lab02",
+      "/home/zak/repos/lp2"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ShownTips"><![CDATA[{
+  "shownTips": {
+    "SpeedSearch": 1682373660139,
+    "Rename": 1681042920461,
+    "GoToImplementation": 1681508899827,
+    "FocusProjectToolWindow": 1681648004251,
+    "SearchEverywhere": 1682719852327,
+    "VCS_general": 1681598355090,
+    "CommentCode": 1680206480391,
+    "FindReplaceToggle": 1681866659200,
+    "ShowUsages": 1682013691128,
+    "FindInPath": 1681508917073
+  }
+}]]></component>
+</application>

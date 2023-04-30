@@ -1,0 +1,88 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/.cache/JetBrains/IntelliJIdea2023.1/demo/IdeaLearningProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="IdeaLearningProject – Sample.java" projectWorkspaceId="2NkDjeW92gkng0EHUzBB06jN79p">
+              <option name="activationTimestamp" value="1680203678422" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.8109.175" />
+              <option name="buildTimestamp" value="1680000273864" />
+              <frame x="9" y="32" width="1346" height="696" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1680199324532" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/repos/lp2/lab01">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lab01" projectWorkspaceId="2NkQck9ArXJ8Gz0bhMY7R26MdhL">
+              <option name="activationTimestamp" value="1680206448344" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.8109.175" />
+              <option name="buildTimestamp" value="1680000293228" />
+              <frame x="10" y="52" width="1346" height="696" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1680206469926" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/eli/lp2/lab02">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lab02 [~/eli/lp2/lab02] – CoisaCLI.java" projectWorkspaceId="2OBzkWNsOS1PHWuDWAQixCTZonU">
+              <option name="activationTimestamp" value="1681062795288" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.8109.175" />
+              <option name="buildTimestamp" value="1680000249660" />
+              <frame x="10" y="52" width="1346" height="696" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1681062759553" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/repos/lp2/lab03">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lab03 – MainAgenda.java" projectWorkspaceId="2OOXAkmy5Ydz1HEZvErvskVbw8a">
+              <option name="activationTimestamp" value="1682016945110" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.8109.175" />
+              <option name="buildTimestamp" value="1680000244969" />
+              <frame x="0" y="32" width="1366" height="736" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1682013682563" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/repos/lp2/lab02">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lab02 – CoisaCLI.java" projectWorkspaceId="2NkPywaYp8PpS9YKQvkdNdzaohv">
+              <option name="activationTimestamp" value="1682373653754" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.8109.175" />
+              <option name="buildTimestamp" value="1680000255445" />
+              <frame x="0" y="32" width="1366" height="736" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1682373580796" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/repos/lp2/sim01">
+          <value>
+            <RecentProjectMetaInfo frameTitle="sim01 – DogHostTest.java" projectWorkspaceId="2OtIrX2fjD65Px1U8H6Mnf5kZuk">
+              <option name="activationTimestamp" value="1682719865959" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.8770.65" />
+              <option name="buildTimestamp" value="1682609126167" />
+              <frame x="17" y="17" width="1332" height="734" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1682719843631" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/repos/lp2/sim01" />
+    <option name="lastProjectLocation" value="$USER_HOME$/repos/lp2" />
+  </component>
+</application>
