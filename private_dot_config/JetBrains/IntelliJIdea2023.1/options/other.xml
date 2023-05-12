@@ -20,7 +20,7 @@
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
     "SettingsSearchHistory": "spell",
-    "appcds.runOnSecondStart": "IU-231.8770.65-4d3ec1da8bf2462ca940d4bd343ccc073a84557194dacd10168f575485b30b10",
+    "appcds.runOnSecondStart": "IU-231.8770.65-a21e79e04aa25a32f7272c5d63d4e7f7dc69f1099dd0d8b7b3b34dd1b657401d",
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IU-231.8770.65",
     "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
@@ -32,7 +32,7 @@
     "evlsprt3.231": "22",
     "experimental.ui.first.promotion.localdate": "2023-03-30",
     "experimental.ui.used.once": "true",
-    "file.gist.reindex.count": "29",
+    "file.gist.reindex.count": "35",
     "fileTypeChangedCounter": "1",
     "fontSizeToResetConsole": "12.0",
     "fontSizeToResetEditor": "12.0",
@@ -42,7 +42,7 @@
     "got.it.tooltip.reset.lesson.got.it": "1",
     "gotit.previous.run": "IU-231.8770.65",
     "ide.memory.adjusted": "true",
-    "ideavim.statistics.timestamp": "1682719853957",
+    "ideavim.statistics.timestamp": "1683428336357",
     "ift.idea.onboarding.feedback.proposed": "true",
     "ift.learning.panel.opened.in": "231.8109.175",
     "installed.kotlin.plugin.version": "231-1.8.21-IJ8770.65",
@@ -79,16 +79,18 @@
 }]]></component>
   <component name="ShownTips"><![CDATA[{
   "shownTips": {
+    "IntroduceVariable": 1683428335254,
     "SpeedSearch": 1682373660139,
     "Rename": 1681042920461,
     "GoToImplementation": 1681508899827,
-    "FocusProjectToolWindow": 1681648004251,
+    "FocusProjectToolWindow": 1683141405709,
     "SearchEverywhere": 1682719852327,
+    "NonSuspendingBreakpoints": 1683490695717,
     "VCS_general": 1681598355090,
     "CommentCode": 1680206480391,
-    "FindReplaceToggle": 1681866659200,
-    "ShowUsages": 1682013691128,
-    "FindInPath": 1681508917073
+    "FindReplaceToggle": 1683248577954,
+    "ShowUsages": 1683248581902,
+    "FindInPath": 1682940721755
   }
 }]]></component>
 </application>

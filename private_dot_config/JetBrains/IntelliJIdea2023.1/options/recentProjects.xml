@@ -80,9 +80,22 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/repos/lp2/lab04">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lab04 – MrBetTest.java" opened="true" projectWorkspaceId="2PBqEk2bItFpRVnsT5xka83KUCF">
+              <option name="activationTimestamp" value="1683498986520" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.8770.65" />
+              <option name="buildTimestamp" value="1682609135318" />
+              <frame x="0" y="32" width="1366" height="736" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1683490682942" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/repos/lp2/sim01" />
+    <option name="lastOpenedProject" value="$USER_HOME$/repos/lp2/lab04" />
     <option name="lastProjectLocation" value="$USER_HOME$/repos/lp2" />
   </component>
 </application>

@@ -9,7 +9,22 @@
     "modules-center": ["sway/window"],
     "modules-right": ["network", "memory", "temperature", "battery", "battery#bat2", "clock", "tray"],
     // Modules configuration
-    "sway/workspaces": {
+    // "sway/workspaces": {
+    //     "disable-scroll": true,
+    //     "all-outputs": true,
+    //     "format": "{name}: {icon}",
+    //     "format-icons": {
+    //         "1": "",
+    //         "2": "",
+    //         "3": "",
+    //         "4": "",
+    //         "5": "",
+    //         "urgent": "",
+    //         "focused": "",
+    //         "default": ""
+    //     }
+    // },
+    "wlr/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "format": "{name}: {icon}",
