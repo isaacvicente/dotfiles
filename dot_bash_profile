@@ -40,4 +40,7 @@ export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export GRIPHOME="$XDG_CONFIG_HOME/grip"
 
 # For random Android stuff
-ANDROID_HOME="$XDG_DATA_HOME/android"
+export ANDROID_HOME="$XDG_DATA_HOME/android"
+
+# For ansible configuration
+export ANSIBLE_CONFIG="$XDG_CONFIG_HOME/ansible"
