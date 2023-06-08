@@ -193,14 +193,14 @@ M.lspconfig = {
 
     ["[d"] = {
       function()
-        vim.diagnostic.goto_prev()
+        vim.diagnostic.goto_prev({ float = { border = "rounded" }})
       end,
       "Goto prev",
     },
 
     ["]d"] = {
       function()
-        vim.diagnostic.goto_next()
+        vim.diagnostic.goto_next({ float = { border = "rounded" }})
       end,
       "Goto next",
     },
@@ -276,6 +276,8 @@ M.telescope = {
 
     -- theme switcher
     ["<leader>th"] = { "<cmd> Telescope themes <CR>", "Nvchad themes" },
+
+    ["<leader>ma"] = { "<cmd> Telescope marks <CR>", "telescope bookmarks" },
   },
 }
 

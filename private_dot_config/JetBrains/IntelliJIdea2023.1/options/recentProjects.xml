@@ -82,20 +82,85 @@
         </entry>
         <entry key="$USER_HOME$/repos/lp2/lab04">
           <value>
-            <RecentProjectMetaInfo frameTitle="lab04 – MrBetTest.java" opened="true" projectWorkspaceId="2PBqEk2bItFpRVnsT5xka83KUCF">
-              <option name="activationTimestamp" value="1683498986520" />
+            <RecentProjectMetaInfo frameTitle="lab04 – MrBetTest.java" projectWorkspaceId="2PBqEk2bItFpRVnsT5xka83KUCF">
+              <option name="activationTimestamp" value="1684874615506" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-231.8770.65" />
-              <option name="buildTimestamp" value="1682609135318" />
-              <frame x="0" y="32" width="1366" height="736" extendedState="6" />
+              <option name="build" value="IU-231.9011.34" />
+              <option name="buildTimestamp" value="1684213235423" />
+              <frame x="10" y="170" width="1221" height="598" extendedState="6" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1683490682942" />
+              <option name="projectOpenTimestamp" value="1684874572154" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/repos/tiny-java-3d-render-engine">
+          <value>
+            <RecentProjectMetaInfo frameTitle="tiny-java-3d-render-engine – Viewer.java" projectWorkspaceId="2QUTmGis7gmDXTrws4m9IrRyHe2">
+              <option name="activationTimestamp" value="1685573929309" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.9011.34" />
+              <option name="buildTimestamp" value="1684213251679" />
+              <frame x="683" y="69" width="683" height="699" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1685572446750" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/repos/p2lp2-sogra">
+          <value>
+            <RecentProjectMetaInfo frameTitle="p2lp2-sogra – JanelaGrafica.java [sogra.main]" projectWorkspaceId="2Qa4dleQnUlbHdUdU2WJusm0UCd">
+              <option name="activationTimestamp" value="1685578547708" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.9011.34" />
+              <option name="buildTimestamp" value="1684213251679" />
+              <frame x="10" y="72" width="1346" height="696" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1685578448210" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/repos/lp2/sim02">
+          <value>
+            <RecentProjectMetaInfo frameTitle="sim02 – DesafioMaterial.java" projectWorkspaceId="2Qo8sjxogpWXNE9SJZ3ZrBpAhe6">
+              <option name="activationTimestamp" value="1686077684936" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.9011.34" />
+              <option name="buildTimestamp" value="1684213237896" />
+              <frame x="0" y="69" width="1366" height="699" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1686077637559" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/repos/lp2/lab05">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lab05 – ElementosController.java" projectWorkspaceId="2QD43CyECRJBxeZQnI24pxaNlqb">
+              <option name="activationTimestamp" value="1686207089967" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.9011.34" />
+              <option name="buildTimestamp" value="1684213237651" />
+              <frame x="683" y="69" width="683" height="699" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1686161394827" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/lab5">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lab5 – Documento.java" opened="true" projectWorkspaceId="2QtEcVoxd32bWkGksStvmeHYZdu">
+              <option name="activationTimestamp" value="1686207095193" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.9011.34" />
+              <option name="buildTimestamp" value="1684213237651" />
+              <frame x="10" y="72" width="1346" height="696" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1686164556853" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/repos/lp2/lab04" />
+    <option name="lastOpenedProject" value="$USER_HOME$/lab5" />
     <option name="lastProjectLocation" value="$USER_HOME$/repos/lp2" />
   </component>
 </application>

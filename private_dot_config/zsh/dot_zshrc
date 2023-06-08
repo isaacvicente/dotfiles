@@ -41,9 +41,16 @@ export KEYTIMEOUT=1
 # I want a colorful `ls`
 eval "$(dircolors)"
 
+# Initialization of zoxide
 if command -v zoxide &> /dev/null
 then
     eval "$(zoxide init zsh)"
+fi
+
+# glow completion for zsh
+if command -v glow &> /dev/null
+then
+    eval "$(glow completion zsh)"
 fi
 
 # Set the Cattpuccin theme for fzf

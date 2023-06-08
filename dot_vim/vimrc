@@ -79,9 +79,6 @@ nnoremap <expr> N  'nN'[v:searchforward]
 xnoremap <expr> N  'nN'[v:searchforward]
 onoremap <expr> N  'nN'[v:searchforward]
 
-" Yank from cursor to the end of line
-nnoremap Y y$
-
 "" Saner command-line history
 " (https://github.com/mhinz/vim-galore#saner-command-line-history)
 cnoremap <expr> <c-n> wildmenumode() ? "\<c-n>" : "\<down>"
@@ -101,6 +98,26 @@ nnoremap ]e  :<c-u>execute 'move +'. v:count1<cr>
 " (https://github.com/mhinz/vim-galore#dont-lose-selection-when-shifting-sidewards)
 xnoremap <  <gv
 xnoremap >  >gv
+
+"" Nvim defaults
+" Yank from cursor to the end of line
+nnoremap Y y$
+nnoremap <C-L> <Cmd>nohlsearch<Bar>diffupdate<Bar>normal! <C-L><CR>
+inoremap <C-U> <C-G>u<C-U>
+inoremap <C-W> <C-G>u<C-W>
+xnoremap * y/\V<C-R>"<CR>
+xnoremap # y?\V<C-R>"<CR>
+nnoremap & :&&>CR>
+
+"" Open the NetRW explorer
+nnoremap <leader>e :Vex<CR>
+nnoremap <leader><CR> :so ~/.vim/vimrc<CR>
+
+"" Makes delete do not copy any shit
+" If want to cut something, select with v/V and type x
+nnoremap d "_d
+nnoremap D "_D
+vnoremap d "_d
 
 " ---------------------------------------------------------
 " GUI related

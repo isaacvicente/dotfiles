@@ -204,7 +204,7 @@ com.jetbrains.plugins.webDeployment|Deployment
 
 com.jetbrains.projector.libs|null
 
-com.jetbrains.restClient|Other Tools
+com.jetbrains.restClient|Microservices
 
 com.jetbrains.restWebServices|JVM Frameworks
 

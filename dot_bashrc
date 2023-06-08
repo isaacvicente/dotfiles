@@ -17,9 +17,16 @@ export HISTFILE="$XDG_STATE_HOME"/bash/history
 # I want a colorful `ls`
 eval "$(dircolors)"
 
+# Initialization of zoxide
 if command -v zoxide &> /dev/null
 then
     eval "$(zoxide init bash)"
+fi
+
+# glow completion for bash
+if command -v glow &> /dev/null
+then
+    eval "$(glow completion bash)"
 fi
 
 ## Bash functions (https://wiki.archlinux.org/title/Bash/Functions)

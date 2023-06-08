@@ -18,6 +18,18 @@ export XDG_CACHE_HOME="$HOME/.cache"
 # Fuck vi, I want Vim
 export EDITOR=vim
 
+# Bat as my man pager
+export MANPAGER="sh -c 'col -bx | bat --theme=Monokai\ Extended -l man -p'"
+
+# For Vagrant
+export VAGRANT_HOME="$XDG_DATA_HOME/vagrant"
+
+# For Gradle
+export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
+
+# For Go
+export GOPATH="$XDG_DATA_HOME/go"
+
 # For rustup
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 

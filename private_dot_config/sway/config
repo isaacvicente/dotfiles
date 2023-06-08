@@ -19,7 +19,11 @@ set $term kitty
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 # set $menu dmenu_path | dmenu | xargs swaymsg exec --
-set $menu ~/.config/rofi/launchers/type-5/launcher.sh
+## set $menu ~/.config/rofi/launchers/type-5/launcher.sh
+set $menu rofi -show drun
+
+# Preferred browser
+set $browser firefox
 
 ### Output configuration
 #
@@ -85,6 +89,9 @@ default_border pixel 2
 #
     # Start a terminal
     bindsym $mod+Return exec $term
+    
+    # Start Browser
+    bindsym $mod+n exec $browser
 
     # Kill focused window
     bindsym $mod+Shift+q kill

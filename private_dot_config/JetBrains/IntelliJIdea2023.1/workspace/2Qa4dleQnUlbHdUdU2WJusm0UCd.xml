@@ -1,0 +1,267 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="p2lp2-sogra" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/Main.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circulo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1892" />
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retangulo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1197" />
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/model/FormaGeometrica.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+              <folding>
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/model/DispositivoSaida.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/view/JanelaGraficaPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-840">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/model/dispositivosSaida/JanelaGrafica.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="5" lastUsed="1685578626793" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="2" lastUsed="1685578564075" />
+    </fileType>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="5" lastUsage="1685578626793" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="2" lastUsage="1685578564075" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sogra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="sogra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sogra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="sogra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sogra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java/br/ufcg/computacao/p2lp2}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sogra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java/br/ufcg/computacao/p2lp2}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java/br/ufcg/computacao/p2lp2/model}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sogra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java/br/ufcg/computacao/p2lp2}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java/br/ufcg/computacao/p2lp2/model}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java/br/ufcg/computacao/p2lp2/model/dispositivosSaida}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sogra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java/br/ufcg/computacao/p2lp2}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/p2lp2-sogra/src/main/java/br/ufcg/computacao/p2lp2/view}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="193000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32540265" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.3297568" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Build" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Dependencies" order="4" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Database" order="1" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25" />
+      <window_info anchor="right" id="Web Inspector" order="4" weight="0.25" />
+      <unified_weights bottom="0.3297568" left="0.32540265" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1284" height="188" key="GridCell.Tab.0.bottom" timestamp="1685578641945">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1685578641945" />
+    <state width="1284" height="188" key="GridCell.Tab.0.center" timestamp="1685578641945">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1685578641945" />
+    <state width="1284" height="188" key="GridCell.Tab.0.left" timestamp="1685578641944">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1685578641944" />
+    <state width="1284" height="188" key="GridCell.Tab.0.right" timestamp="1685578641945">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1685578641945" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circulo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1892" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retangulo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/model/FormaGeometrica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/model/DispositivoSaida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/view/JanelaGraficaPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufcg/computacao/p2lp2/model/dispositivosSaida/JanelaGrafica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

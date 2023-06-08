@@ -1,4 +1,7 @@
 <application>
+  <component name="EduSettings">
+    <option name="javaUiLibrary" value="JCEF" />
+  </component>
   <component name="LangManager">
     <option name="languageName" value="JAVA" />
     <languageToProjectMap>
@@ -11,18 +14,27 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
+    "Edu.CourseCreator.Enabled": "true",
+    "Educational.recentCoursesFilled": "true",
+    "Educational.stepikOAuthReset": "true",
     "GRAZIE_RULE_FILTER": "spell",
+    "InstalledPluginsSearchHistory": "/sortBy:downloads /sortBy:rating\nwhich ke\nwhich key\nwhich k\nwhich",
     "JUnitSupport.hidePassedTests": "false",
-    "MarketplacePluginsSearchHistory": "presence\npresen\nprese\ngruvbox\ngruvb",
+    "MarketplacePluginsSearchHistory": "/sortBy:downloads /sortBy:rating\n/sortBy:downloads /sortBt\n/sortBy:downloads\n/sortBy:rating\n/sortBy:featured /sortBy:rating",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
     "NewProjectWizard.addSampleCodeState": "false",
+    "NewProjectWizard.gitState": "true",
     "NewProjectWizard.groupIdState": "org.example",
     "NonModalCommitCustomization.IsApplied": "true",
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
-    "SettingsSearchHistory": "spell",
-    "appcds.runOnSecondStart": "IU-231.8770.65-a21e79e04aa25a32f7272c5d63d4e7f7dc69f1099dd0d8b7b3b34dd1b657401d",
+    "SettingsSearchHistory": "q\nwhich\nQq\nspell",
+    "appcds.runOnSecondStart": "IU-231.9011.34-0c1745182bc7e32596b4529cee247b2f7a8f448b5af206a95058794790f2bcf7",
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
-    "bundled.plugins.list.saved.version": "IU-231.8770.65",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IU-231.9011.34",
     "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
     "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
     "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
@@ -32,7 +44,7 @@
     "evlsprt3.231": "22",
     "experimental.ui.first.promotion.localdate": "2023-03-30",
     "experimental.ui.used.once": "true",
-    "file.gist.reindex.count": "35",
+    "file.gist.reindex.count": "45",
     "fileTypeChangedCounter": "1",
     "fontSizeToResetConsole": "12.0",
     "fontSizeToResetEditor": "12.0",
@@ -40,28 +52,35 @@
     "got.it.tooltip.extract.method.gotit.navigate": "1",
     "got.it.tooltip.reader.mode.got.it": "1",
     "got.it.tooltip.reset.lesson.got.it": "1",
-    "gotit.previous.run": "IU-231.8770.65",
+    "gotit.previous.run": "IU-231.9011.34",
     "ide.memory.adjusted": "true",
-    "ideavim.statistics.timestamp": "1683428336357",
+    "ideavim.statistics.timestamp": "1686167672769",
     "ift.idea.onboarding.feedback.proposed": "true",
     "ift.learning.panel.opened.in": "231.8109.175",
-    "installed.kotlin.plugin.version": "231-1.8.21-IJ8770.65",
+    "installed.kotlin.plugin.version": "231-1.8.21-IJ9011.34",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/zak/repos/lp2",
+    "last_opened_file_path": "/home/zak/lab5",
     "migrate.android.sdk.path.to.roamable.storage": "false",
     "migrated.non.roamable.values.from.general.settings": "true",
     "previousColorScheme": "_@user_Dark",
     "project.wizard.group": "NPW.simple-project",
-    "registry.to.advanced.settings.migration.build": "IU-231.8770.65",
+    "registry.to.advanced.settings.migration.build": "IU-231.9011.34",
     "tasks.pass.word.conversion.enforced": "true",
     "ts.lib.d.ts.version": "4.8.4"
   },
   "keyToStringList": {
     "file.chooser.recent.files": [
+      "/home/zak/lab5",
+      "/home/zak/repos/lp2/sim02",
+      "/home/zak/repos/p2lp2-sogra",
+      "/home/zak/repos/tiny-java-3d-render-engine",
+      "/home/zak/repos/lp2/lab05",
+      "/home/zak/repos/lp2",
+      "/home/zak/DemoViewer.java",
+      "/home/zak/repos",
       "/home/zak/repos/lp2/lab02",
       "/home/zak/repos/lp2/lab03",
-      "/home/zak/eli/lp2/lab02",
-      "/home/zak/repos/lp2"
+      "/home/zak/eli/lp2/lab02"
     ],
     "fileTypeDetectors": [
       "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
@@ -80,17 +99,26 @@
   <component name="ShownTips"><![CDATA[{
   "shownTips": {
     "IntroduceVariable": 1683428335254,
-    "SpeedSearch": 1682373660139,
+    "LiveTemplates": 1685797384961,
+    "SpeedSearch": 1685383386343,
     "Rename": 1681042920461,
     "GoToImplementation": 1681508899827,
-    "FocusProjectToolWindow": 1683141405709,
-    "SearchEverywhere": 1682719852327,
+    "FocusProjectToolWindow": 1684928994277,
+    "SearchEverywhere": 1684610811181,
+    "RecentFiles": 1685569102893,
     "NonSuspendingBreakpoints": 1683490695717,
     "VCS_general": 1681598355090,
+    "QuickSwitchScheme": 1685190952323,
     "CommentCode": 1680206480391,
-    "FindReplaceToggle": 1683248577954,
-    "ShowUsages": 1683248581902,
-    "FindInPath": 1682940721755
+    "FindReplaceToggle": 1685033025902,
+    "SurroundWith": 1686077243656,
+    "ShowUsages": 1685135966491,
+    "SelectIn": 1685992739729,
+    "LayoutCode": 1685298944049,
+    "PostfixCompletion": 1685890465742,
+    "FindInPath": 1686161404220,
+    "CtrlShiftI": 1685492138860,
+    "OverrideImplementMethods": 1685638734672
   }
 }]]></component>
 </application>

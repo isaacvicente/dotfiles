@@ -210,8 +210,21 @@ vim.o.mouse = 'a'
 -- Enable break indent
 vim.o.breakindent = true
 
+-- 4 spaces to indent
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.shiftround = true
+vim.opt.expandtab = true
+
 -- Save undo history
 vim.o.undofile = true
+
+-- Make the screen centered
+vim.o.scrolloff = 8
+
+-- Show the line numbers relative to my line cursor
+vim.o.relativenumber = true
 
 -- Case insensitive searching UNLESS /C or capital in search
 vim.o.ignorecase = true
@@ -236,6 +249,18 @@ vim.o.termguicolors = true
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
+
+-- Don't lose selection when shifting sidewards
+-- (https://github.com/mhinz/vim-galore#dont-lose-selection-when-shifting-sidewards)
+vim.keymap.set('v', '>', '>gv', { silent = true, noremap = true})
+vim.keymap.set('v', '<', '<gv', { silent = true, noremap = true})
+
+
+-- Makes delete do not copy any shit
+-- If want to cut something, select with v/V and type x
+vim.keymap.set('n', 'd', '"_d', { silent = true, noremap = true})
+vim.keymap.set('n', 'D', '"_D', { silent = true, noremap = true})
+vim.keymap.set('v', 'd', '"_d', { silent = true, noremap = true})
 
 -- Remap for dealing with word wrap
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })

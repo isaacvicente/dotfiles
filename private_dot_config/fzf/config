@@ -40,3 +40,4 @@ fman() {
    | awk '{print $1}' \
    | xargs -r man
 }
+
