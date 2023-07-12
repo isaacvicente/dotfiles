@@ -132,35 +132,48 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/repos/lp2/lab05">
+        <entry key="$USER_HOME$/lab5">
           <value>
-            <RecentProjectMetaInfo frameTitle="lab05 – ElementosController.java" projectWorkspaceId="2QD43CyECRJBxeZQnI24pxaNlqb">
-              <option name="activationTimestamp" value="1686207089967" />
+            <RecentProjectMetaInfo frameTitle="lab5 – Documento.java" projectWorkspaceId="2QtEcVoxd32bWkGksStvmeHYZdu">
+              <option name="activationTimestamp" value="1686342908638" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-231.9011.34" />
-              <option name="buildTimestamp" value="1684213237651" />
-              <frame x="683" y="69" width="683" height="699" extendedState="6" />
+              <option name="buildTimestamp" value="1684213218268" />
+              <frame x="0" y="69" width="1366" height="699" extendedState="6" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1686161394827" />
+              <option name="projectOpenTimestamp" value="1686342322578" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/lab5">
+        <entry key="$USER_HOME$/repos/lp2/lab05">
           <value>
-            <RecentProjectMetaInfo frameTitle="lab5 – Documento.java" opened="true" projectWorkspaceId="2QtEcVoxd32bWkGksStvmeHYZdu">
-              <option name="activationTimestamp" value="1686207095193" />
+            <RecentProjectMetaInfo frameTitle="lab05 – ~/main.go" projectWorkspaceId="2R4eu5l6s85iag6CqRkWY7epYiV">
+              <option name="activationTimestamp" value="1687555970725" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-231.9011.34" />
-              <option name="buildTimestamp" value="1684213237651" />
-              <frame x="10" y="72" width="1346" height="696" />
+              <option name="build" value="IU-231.9161.38" />
+              <option name="buildTimestamp" value="1687237307577" />
+              <frame x="0" y="69" width="1366" height="699" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1686164556853" />
+              <option name="projectOpenTimestamp" value="1687555802167" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/gonteiner">
+          <value>
+            <RecentProjectMetaInfo frameTitle="gonteiner – main.go" opened="true" projectWorkspaceId="2RcirTg2Enji6BTBOXbHb6nQM2X">
+              <option name="activationTimestamp" value="1687570416510" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-231.9161.38" />
+              <option name="buildTimestamp" value="1687237300359" />
+              <frame x="0" y="69" width="1366" height="699" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1687556094212" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/lab5" />
-    <option name="lastProjectLocation" value="$USER_HOME$/repos/lp2" />
+    <option name="lastOpenedProject" value="$USER_HOME$/gonteiner" />
+    <option name="lastProjectLocation" value="$USER_HOME$" />
   </component>
 </application>

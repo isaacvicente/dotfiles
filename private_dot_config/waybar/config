@@ -24,7 +24,7 @@
     //         "default": ""
     //     }
     // },
-    "wlr/workspaces": {
+    "sway/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "format": "{name}: {icon}",
@@ -35,7 +35,6 @@
             "4": "",
             "5": "",
             "urgent": "",
-            "focused": "",
             "default": ""
         }
     },

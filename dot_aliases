@@ -31,5 +31,8 @@ alias lm='la | more'
 ## wget XDG Base Directory support
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 
+# ip
+alias ip='ip -c'
+
 # Setar o túnel pra se conectar
 alias proxmox='ssh -L 8080:150.165.74.151:23456 isaac.vicente.medeiros.silva@150.165.42.41 -p 23456'

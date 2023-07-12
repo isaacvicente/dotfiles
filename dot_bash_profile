@@ -18,35 +18,38 @@ export XDG_CACHE_HOME="$HOME/.cache"
 # Fuck vi, I want Vim
 export EDITOR=vim
 
+# For Docker
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
+
 # Bat as my man pager
 export MANPAGER="sh -c 'col -bx | bat --theme=Monokai\ Extended -l man -p'"
+
+# For rustup
+export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
 
 # For Vagrant
 export VAGRANT_HOME="$XDG_DATA_HOME/vagrant"
 
 # For Gradle
-export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
+export GRADLE_USER_HOME="$XDG_DATA_HOME/gradle"
 
 # For Go
 export GOPATH="$XDG_DATA_HOME/go"
 
-# For rustup
-export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
-
 # For cargo
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
 
 # For parallel home
-export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
+export PARALLEL_HOME="$XDG_CONFIG_HOME/parallel"
 
 # For less
-export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+export LESSHISTFILE="$XDG_CACHE_HOME/less/history"
 
 # For ripgrep
 export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 
 # For GnuPG
-export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 
 # For the grip markdown previewer
 export GRIPHOME="$XDG_CONFIG_HOME/grip"

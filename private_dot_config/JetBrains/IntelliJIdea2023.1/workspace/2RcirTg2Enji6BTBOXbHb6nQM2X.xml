@@ -1,0 +1,149 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="gonteiner" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#14#59#0" expanded="true" />
+                <element signature="e#174#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="Go">
+      <summary usageCount="2" lastUsed="1687556093287" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/main.go" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="go">
+      <summary usageCount="2" lastUsage="1687556093290" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gonteiner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/gonteiner}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gonteiner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/gonteiner}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/gonteiner/.idea}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$">
+        <shellCommand>
+          <arg value="/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="986000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32979503" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3297568" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.3297568" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Database" order="1" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25" />
+      <window_info anchor="right" id="Web Inspector" order="4" weight="0.25" />
+      <unified_weights bottom="0.3297568" left="0.32979503" />
+    </layoutV2>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Run</value>
+      <value>Problems View</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="476" y="127" width="404" height="641" key="#GOPATH" timestamp="1687555993094">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="476" y="127" width="404" height="641" key="#GOPATH/0.32.1366.736@0.32.1366.736" timestamp="1687555993094" />
+    <state width="1284" height="188" key="GridCell.Tab.0.bottom" timestamp="1687570416487">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1687570416487" />
+    <state width="1284" height="188" key="GridCell.Tab.0.center" timestamp="1687570416486">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1687570416486" />
+    <state width="1284" height="188" key="GridCell.Tab.0.left" timestamp="1687570416486">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1687570416486" />
+    <state width="1284" height="188" key="GridCell.Tab.0.right" timestamp="1687570416487">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="188" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1687570416487" />
+    <state x="107" y="105" width="1022" height="700" key="SettingsEditor" timestamp="1687556076530">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="107" y="105" width="1022" height="700" key="SettingsEditor/0.32.1366.736@0.32.1366.736" timestamp="1687556076530" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#14#59#0" expanded="true" />
+            <element signature="e#174#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

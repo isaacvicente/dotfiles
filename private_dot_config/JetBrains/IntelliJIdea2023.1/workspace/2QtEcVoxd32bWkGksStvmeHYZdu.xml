@@ -10,15 +10,15 @@
     <option name="showOnlyModified" value="false" />
     <option name="myColumnSize">
       <list>
-        <option value="122" />
-        <option value="127" />
-        <option value="137" />
-        <option value="314" />
+        <option value="124" />
+        <option value="129" />
+        <option value="138" />
+        <option value="319" />
       </list>
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/documin/DocumentoControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -31,8 +31,11 @@
       <file>
         <entry file="file://$PROJECT_DIR$/src/documin/Documento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2019">
+            <state relative-caret-position="-1430">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,7 +44,7 @@
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="JAVA">
-      <summary usageCount="2" lastUsed="1686164878507" />
+      <summary usageCount="8" lastUsed="1686342322467" />
     </fileType>
   </component>
   <component name="IgnoredFileRootStore">
@@ -53,14 +56,13 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JAVA">
-      <summary usageCount="2" lastUsage="1686164878507" />
+      <summary usageCount="8" lastUsage="1686342322467" />
     </language>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="Course" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,6 +96,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -112,33 +115,37 @@
     <history-entry file="documin_in_lab5 - 2023.06.07 at 16h 08m 53s.xml">
       <configuration name="documin in lab5" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="documin_in_lab5 - 2023.06.09 at 17h 25m 49s.xml">
+      <configuration name="documin in lab5" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="975000" />
+    <option name="totallyTimeSpent" value="2211000" />
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33023775" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32540265" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.32974136" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.21479884" />
-      <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="Build" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.2153076" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="Database" order="1" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.52117383" />
-      <window_info anchor="right" id="Web Inspector" order="4" weight="0.25" />
-      <unified_weights bottom="0.21479884" left="0.33023775" right="0.52117383" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.52086383" />
+      <window_info anchor="right" id="Web Inspector" order="5" weight="0.25" />
+      <unified_weights bottom="0.2153076" left="0.32540265" right="0.52086383" />
     </layoutV2>
     <recentWindows>
-      <value>Project</value>
       <value>Coverage</value>
+      <value>Project</value>
       <value>Run</value>
       <value>Problems View</value>
     </recentWindows>
@@ -148,22 +155,26 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="445" y="522" width="465" height="246" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.32.1366.736@0.32.1366.736" timestamp="1686164682457" />
-    <state width="1264" height="107" key="GridCell.Tab.0.bottom" timestamp="1686207095128">
+    <state x="466" y="213" width="424" height="454" key="FileChooserDialogImpl" timestamp="1686314665103">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1264" height="107" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1686207095128" />
-    <state width="1264" height="107" key="GridCell.Tab.0.center" timestamp="1686207095127">
+    <state x="466" y="213" width="424" height="454" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1686314665103" />
+    <state width="1284" height="108" key="GridCell.Tab.0.bottom" timestamp="1686342911888">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1264" height="107" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1686207095127" />
-    <state width="1264" height="107" key="GridCell.Tab.0.left" timestamp="1686207095127">
+    <state width="1284" height="108" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1686342911888" />
+    <state width="1284" height="108" key="GridCell.Tab.0.center" timestamp="1686342911887">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1264" height="107" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1686207095127" />
-    <state width="1264" height="107" key="GridCell.Tab.0.right" timestamp="1686207095128">
+    <state width="1284" height="108" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1686342911887" />
+    <state width="1284" height="108" key="GridCell.Tab.0.left" timestamp="1686342911887">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1264" height="107" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1686207095128" />
+    <state width="1284" height="108" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1686342911887" />
+    <state width="1284" height="108" key="GridCell.Tab.0.right" timestamp="1686342911888">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1284" height="108" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1686342911888" />
     <state x="362" y="387" width="631" height="200" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1686164781915">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -179,8 +190,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/documin/Documento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2019">
+        <state relative-caret-position="-1430">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,148 +11,117 @@
     <option name="myColumnSize">
       <list>
         <option value="76" />
-        <option value="81" />
-        <option value="86" />
-        <option value="206" />
+        <option value="79" />
+        <option value="79" />
+        <option value="215" />
       </list>
     </option>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/documin/elementos/Termos.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/controllers/DocumentoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="4347">
+              <caret line="214" selection-start-line="214" selection-end-line="214" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/facade/Facade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/documin/elementos/Titulo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/documin/elementos/TituloTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/documin/controllers/VisaoControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3234">
-              <caret line="168" column="9" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/documin/controllers/DocumentoControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="955">
-              <caret line="446" selection-start-line="446" selection-end-line="446" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/documin/elementos/Documento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1585#1586#0" expanded="true" />
-                <element signature="e#1635#1636#0" expanded="true" />
-                <element signature="e#1839#1840#0" expanded="true" />
-                <element signature="e#1908#1909#0" expanded="true" />
-                <element signature="e#2156#2157#0" expanded="true" />
-                <element signature="e#2217#2218#0" expanded="true" />
-                <element signature="e#2272#2273#0" expanded="true" />
-                <element signature="e#2334#2335#0" expanded="true" />
-                <element signature="e#5625#5626#0" expanded="true" />
-                <element signature="e#5696#5697#0" expanded="true" />
-                <element signature="e#5755#5756#0" expanded="true" />
-                <element signature="e#5826#5827#0" expanded="true" />
-                <element signature="e#5866#5867#0" expanded="true" />
-                <element signature="e#5931#5932#0" expanded="true" />
-                <element signature="e#7258#7259#0" expanded="true" />
-                <element signature="e#7292#7293#0" expanded="true" />
-                <element signature="e#8251#8252#0" expanded="true" />
-                <element signature="e#8303#8304#0" expanded="true" />
-                <element signature="e#8734#8735#0" expanded="true" />
-                <element signature="e#8777#8778#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/documin/controllers/DocumentoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/documin/elementos/Elemento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-812">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/documin/elementos/Atalho.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file>
-        <entry file="file://$PROJECT_DIR$/src/documin/controllers/ElementosController.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/visoes/VisaoTitulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+            <state relative-caret-position="294">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#3196#3197#0" expanded="true" />
-                <element signature="e#3233#3234#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/controllers/VisaoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Atalho.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Documento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3381">
+              <caret line="177" column="67" selection-start-line="177" selection-start-column="67" selection-end-line="177" selection-end-column="67" />
+              <folding>
+                <element signature="e#2429#2430#0" expanded="true" />
+                <element signature="e#2490#2491#0" expanded="true" />
+                <element signature="e#7176#7177#0" expanded="true" />
+                <element signature="e#7253#7254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Elemento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Lista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Ordem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Termos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1218">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,19 +131,19 @@
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="DIFF">
-      <summary usageCount="20" lastUsed="1686082539091" />
+      <summary usageCount="28" lastUsed="1686495607185" />
     </fileType>
     <fileType name="IDEA_MODULE">
       <summary usageCount="1" lastUsed="1685801172228" />
     </fileType>
     <fileType name="JAVA">
-      <summary usageCount="289" lastUsed="1686168566954" />
+      <summary usageCount="418" lastUsed="1686513892502" />
     </fileType>
     <fileType name="UML">
       <summary usageCount="1" lastUsed="1685996745333" />
     </fileType>
     <fileType name="textmate">
-      <summary usageCount="2" lastUsed="1686082277539" />
+      <summary usageCount="3" lastUsed="1686335439535" />
     </fileType>
   </component>
   <component name="IdeDocumentHistory">
@@ -186,35 +155,43 @@
       <option value="$PROJECT_DIR$/src/Documin/DocumentoController.java" />
       <option value="$PROJECT_DIR$/src/documin/DocumentoController.java" />
       <option value="$PROJECT_DIR$/src/documin/controllers/ElementoController.java" />
-      <option value="$PROJECT_DIR$/src/documin/elementos/Ordem.java" />
       <option value="$PROJECT_DIR$/src/documin/Facade.java" />
-      <option value="$PROJECT_DIR$/src/documin/elementos/Texto.java" />
-      <option value="$PROJECT_DIR$/src/documin/elementos/Titulo.java" />
       <option value="$PROJECT_DIR$/src/documin/repositorios/RepositorioElementos.java" />
       <option value="$PROJECT_DIR$/src/documin/repositorios/RepositorioDocumentos.java" />
       <option value="$PROJECT_DIR$/src/documin/controller/DocumentoController.java" />
+      <option value="$PROJECT_DIR$/tests/documin/controllers/VisaoControllerTest.java" />
+      <option value="$PROJECT_DIR$/src/documin/elementos/Elemento.java" />
+      <option value="$PROJECT_DIR$/src/documin/elementos/Ordem.java" />
+      <option value="$PROJECT_DIR$/src/documin/elementos/Lista.java" />
+      <option value="$PROJECT_DIR$/src/documin/elementos/Atalho.java" />
+      <option value="$PROJECT_DIR$/src/documin/elementos/Texto.java" />
+      <option value="$PROJECT_DIR$/src/documin/elementos/Termos.java" />
+      <option value="$PROJECT_DIR$/src/documin/elementos/Titulo.java" />
       <option value="$PROJECT_DIR$/src/documin/visoes/Visao.java" />
+      <option value="$PROJECT_DIR$/src/documin/visoes/Visivel.java" />
+      <option value="$PROJECT_DIR$/src/documin/visoes/VisaoCompleta.java" />
       <option value="$PROJECT_DIR$/src/documin/visoes/VisaoPrioritaria.java" />
       <option value="$PROJECT_DIR$/src/documin/visoes/VisaoResumida.java" />
       <option value="$PROJECT_DIR$/src/documin/visoes/VisaoTitulo.java" />
-      <option value="$PROJECT_DIR$/src/documin/facade/Facade.java" />
-      <option value="$PROJECT_DIR$/src/documin/elementos/Lista.java" />
-      <option value="$PROJECT_DIR$/tests/documin/controllers/DocumentoControllerTest.java" />
-      <option value="$PROJECT_DIR$/src/documin/visoes/VisaoCompleta.java" />
-      <option value="$PROJECT_DIR$/src/documin/controllers/VisaoController.java" />
-      <option value="$PROJECT_DIR$/src/documin/elementos/Termos.java" />
-      <option value="$PROJECT_DIR$/tests/documin/controllers/VisaoControllerTest.java" />
-      <option value="$PROJECT_DIR$/tests/documin/elementos/AtalhoTest.java" />
+      <option value="$USER_HOME$/.config/ideavim/ideavimrc" />
+      <option value="$PROJECT_DIR$/src/documin/controllers/ElementosController.java" />
+      <option value="$PROJECT_DIR$/src/documin/controllers/DocumentoController.java" />
+      <option value="$PROJECT_DIR$/src/documin/elementos/Documento.java" />
       <option value="$PROJECT_DIR$/tests/documin/elementos/DocumentoTest.java" />
+      <option value="$PROJECT_DIR$/tests/documin/elementos/AtalhoTest.java" />
       <option value="$PROJECT_DIR$/tests/documin/elementos/ListaTest.java" />
       <option value="$PROJECT_DIR$/tests/documin/elementos/TermosTest.java" />
       <option value="$PROJECT_DIR$/tests/documin/elementos/TextoTest.java" />
       <option value="$PROJECT_DIR$/tests/documin/elementos/TituloTest.java" />
-      <option value="$PROJECT_DIR$/src/documin/elementos/Elemento.java" />
-      <option value="$PROJECT_DIR$/src/documin/controllers/ElementosController.java" />
-      <option value="$PROJECT_DIR$/src/documin/elementos/Documento.java" />
-      <option value="$PROJECT_DIR$/src/documin/controllers/DocumentoController.java" />
-      <option value="$PROJECT_DIR$/src/documin/elementos/Atalho.java" />
+      <option value="$PROJECT_DIR$/tests/documin/visoes/VisaoCompletaTest.java" />
+      <option value="$PROJECT_DIR$/tests/documin/visoes/VisaoPrioritariaTest.java" />
+      <option value="$PROJECT_DIR$/tests/documin/visoes/VisaoResumidaTest.java" />
+      <option value="$PROJECT_DIR$/tests/documin/visoes/VisaoTituloTest.java" />
+      <option value="$PROJECT_DIR$/tests/documin/controllers/DocumentoControllerTest.java" />
+      <option value="$PROJECT_DIR$/tests/documin/controllers/ElementosControllerTest.java" />
+      <option value="$PROJECT_DIR$/src/documin/controllers/VisaoController.java" />
+      <option value="$PROJECT_DIR$/src/documin/facade/Facade.java" />
+      <option value="$PROJECT_DIR$/src/Lab5IsaacVicente/facade/Facade.java" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -226,16 +203,16 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JAVA">
-      <summary usageCount="289" lastUsage="1686168566954" />
+      <summary usageCount="418" lastUsage="1686513892502" />
     </language>
     <language id="textmate">
-      <summary usageCount="2" lastUsage="1686082277539" />
+      <summary usageCount="3" lastUsage="1686335439535" />
     </language>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,35 +229,35 @@
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin/controllers}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente/controllers}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin/elementos}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente/elementos}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin/facade}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente/facade}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/src/documin/visoes}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/src/Lab5IsaacVicente/visoes}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
@@ -291,42 +268,49 @@
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05/tests}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/documin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05/tests}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/documin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/documin/controllers}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/Lab5IsaacVicente/controllers}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/zak/repos/lp2/lab05/tests}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/documin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/documin/elementos}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/Lab5IsaacVicente/elementos}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/tests}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/Lab5IsaacVicente}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/zak/repos/lp2/lab05/tests/Lab5IsaacVicente/visoes}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunConfigurationStartHistory">
     <history>
-      <element setting="JUnit.documin.controllers in lab05" />
-      <element setting="JUnit.VisaoControllerTest" />
-      <element setting="JUnit.VisaoControllerTest.exibirVisaoPrioritaria" />
-      <element setting="JUnit.VisaoControllerTest.exibirVisaoComIdInvalido" />
-      <element setting="JUnit.VisaoControllerTest.exibirVisaoResumida" />
-      <element setting="JUnit.VisaoControllerTest.exibirVisaoCompleta" />
-      <element setting="JUnit.VisaoControllerTest.criarVisaoCompletaDocNaoExistente" />
-      <element setting="JUnit.VisaoControllerTest.getUltimoID" />
-      <element setting="JUnit.DocumentoControllerTest$DocumentoTest.testGetDocumentoNaoExistente" />
-      <element setting="JUnit.DocumentoControllerTest$DocumentoTest.testMoverParaBaixoPosicaoInvalida" />
+      <element setting="JUnit.All in lab05" />
+      <element setting="JUnit.ElementosControllerTest" />
+      <element setting="JUnit.ElementosControllerTest.apagarElemento" />
+      <element setting="JUnit.DocumentoControllerTest$DocumentoTest.testCriarTitulo" />
+      <element setting="JUnit.documin in lab05" />
+      <element setting="JUnit.VisaoTituloTest" />
+      <element setting="JUnit.VisaoResumidaTest" />
+      <element setting="JUnit.VisaoPrioritariaTest" />
+      <element setting="JUnit.VisaoCompletaTest" />
+      <element setting="JUnit.TituloTest" />
     </history>
   </component>
   <component name="ServiceViewManager">
@@ -343,7 +327,7 @@
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$/..">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$/../..">
         <shellCommand>
           <arg value="/bin/zsh" />
           <arg value="-i" />
@@ -352,39 +336,39 @@
     </option>
   </component>
   <component name="TestHistory">
-    <history-entry file="VisaoControllerTest_exibirVisaoCompleta - 2023.06.06 at 16h 51m 45s.xml">
-      <configuration name="VisaoControllerTest.exibirVisaoCompleta" configurationId="JUnit" />
+    <history-entry file="documin_in_lab05 - 2023.06.11 at 12h 52m 27s.xml">
+      <configuration name="documin in lab05" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VisaoControllerTest_exibirVisaoCompleta - 2023.06.06 at 16h 52m 27s.xml">
-      <configuration name="VisaoControllerTest.exibirVisaoCompleta" configurationId="JUnit" />
+    <history-entry file="All_in_lab05 - 2023.06.11 at 12h 52m 36s.xml">
+      <configuration name="All in lab05" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VisaoControllerTest - 2023.06.06 at 16h 54m 13s.xml">
-      <configuration name="VisaoControllerTest" configurationId="JUnit" />
+    <history-entry file="All_in_lab05 - 2023.06.11 at 12h 52m 41s.xml">
+      <configuration name="All in lab05" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VisaoControllerTest_exibirVisaoResumida - 2023.06.06 at 16h 57m 50s.xml">
-      <configuration name="VisaoControllerTest.exibirVisaoResumida" configurationId="JUnit" />
+    <history-entry file="DocumentoControllerTest$DocumentoTest_testCriarTitulo - 2023.06.11 at 14h 37m 18s.xml">
+      <configuration name="DocumentoControllerTest$DocumentoTest.testCriarTitulo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VisaoControllerTest_exibirVisaoResumida - 2023.06.06 at 16h 58m 12s.xml">
-      <configuration name="VisaoControllerTest.exibirVisaoResumida" configurationId="JUnit" />
+    <history-entry file="ElementosControllerTest_apagarElemento - 2023.06.11 at 15h 02m 10s.xml">
+      <configuration name="ElementosControllerTest.apagarElemento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VisaoControllerTest_exibirVisaoComIdInvalido - 2023.06.06 at 17h 01m 39s.xml">
-      <configuration name="VisaoControllerTest.exibirVisaoComIdInvalido" configurationId="JUnit" />
+    <history-entry file="ElementosControllerTest - 2023.06.11 at 15h 11m 37s.xml">
+      <configuration name="ElementosControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VisaoControllerTest_exibirVisaoPrioritaria - 2023.06.06 at 17h 15m 36s.xml">
-      <configuration name="VisaoControllerTest.exibirVisaoPrioritaria" configurationId="JUnit" />
+    <history-entry file="ElementosControllerTest - 2023.06.11 at 15h 16m 41s.xml">
+      <configuration name="ElementosControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VisaoControllerTest_exibirVisaoPrioritaria - 2023.06.06 at 17h 15m 55s.xml">
-      <configuration name="VisaoControllerTest.exibirVisaoPrioritaria" configurationId="JUnit" />
+    <history-entry file="ElementosControllerTest - 2023.06.11 at 15h 16m 48s.xml">
+      <configuration name="ElementosControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VisaoControllerTest - 2023.06.06 at 17h 17m 47s.xml">
-      <configuration name="VisaoControllerTest" configurationId="JUnit" />
+    <history-entry file="All_in_lab05 - 2023.06.11 at 15h 16m 58s.xml">
+      <configuration name="All in lab05" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="documin_controllers_in_lab05 - 2023.06.07 at 17h 10m 12s.xml">
-      <configuration name="documin.controllers in lab05" configurationId="JUnit" />
+    <history-entry file="All_in_lab05 - 2023.06.11 at 15h 17m 26s.xml">
+      <configuration name="All in lab05" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138944000" />
+    <option name="totallyTimeSpent" value="178955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +385,7 @@
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Learn" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13799414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15995608" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -410,13 +394,14 @@
       <window_info anchor="bottom" id="Profiler" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" weight="0.2711016" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" show_stripe_button="false" weight="0.3297568" />
       <window_info anchor="bottom" id="Dependency Checker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.3297568" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.31688124" />
-      <window_info anchor="bottom" id="Build" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="5" show_stripe_button="false" weight="0.31688124" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.3297568" />
+      <window_info anchor="bottom" id="Run" order="5" show_stripe_button="false" weight="0.3297568" />
       <window_info anchor="bottom" id="Debug" order="6" show_stripe_button="false" weight="0.31688124" />
       <window_info anchor="bottom" id="Services" order="7" weight="0.2825465" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
@@ -428,13 +413,15 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.25" />
       <window_info anchor="right" id="Web Inspector" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32979503" />
-      <unified_weights bottom="0.31688124" left="0.13799414" right="0.32979503" />
+      <unified_weights bottom="0.3297568" left="0.15995608" right="0.32979503" />
     </layoutV2>
     <recentWindows>
       <value>Terminal</value>
       <value>Project</value>
+      <value>Find</value>
       <value>Run</value>
       <value>Coverage</value>
+      <value>Build</value>
       <value>Debug</value>
       <value>TODO</value>
       <value>Services</value>
@@ -454,42 +441,42 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="818" y="363" width="392" height="273" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.32.1366.736@0.32.1366.736" timestamp="1685652295344" />
-    <state x="379" y="201" width="424" height="454" key="FileChooserDialogImpl" timestamp="1686164553909">
+    <state x="379" y="312" width="424" height="454" key="FileChooserDialogImpl" timestamp="1686342320992">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="379" y="201" width="424" height="454" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1686164553909" />
-    <state width="1284" height="179" key="GridCell.Tab.0.bottom" timestamp="1686207091585">
+    <state x="379" y="312" width="424" height="454" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1686342320992" />
+    <state width="1284" height="188" key="GridCell.Tab.0.bottom" timestamp="1686513931622">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1284" height="179" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1686207091585" />
-    <state width="1284" height="179" key="GridCell.Tab.0.center" timestamp="1686207091584">
+    <state width="1284" height="188" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1686513931622" />
+    <state width="1284" height="188" key="GridCell.Tab.0.center" timestamp="1686513931622">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1284" height="179" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1686207091584" />
-    <state width="1284" height="179" key="GridCell.Tab.0.left" timestamp="1686207091584">
+    <state width="1284" height="188" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1686513931622" />
+    <state width="1284" height="188" key="GridCell.Tab.0.left" timestamp="1686513931621">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1284" height="179" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1686207091584" />
-    <state width="1284" height="179" key="GridCell.Tab.0.right" timestamp="1686207091584">
+    <state width="1284" height="188" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1686513931621" />
+    <state width="1284" height="188" key="GridCell.Tab.0.right" timestamp="1686513931622">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1284" height="179" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1686207091584" />
-    <state width="1284" height="179" key="GridCell.Tab.1.bottom" timestamp="1686084327627">
+    <state width="1284" height="188" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1686513931622" />
+    <state width="1284" height="179" key="GridCell.Tab.1.bottom" timestamp="1686356297640">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1284" height="179" key="GridCell.Tab.1.bottom/0.32.1366.736@0.32.1366.736" timestamp="1686084327627" />
-    <state width="1284" height="179" key="GridCell.Tab.1.center" timestamp="1686084327627">
+    <state width="1284" height="179" key="GridCell.Tab.1.bottom/0.32.1366.736@0.32.1366.736" timestamp="1686356297640" />
+    <state width="1284" height="179" key="GridCell.Tab.1.center" timestamp="1686356297639">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1284" height="179" key="GridCell.Tab.1.center/0.32.1366.736@0.32.1366.736" timestamp="1686084327627" />
-    <state width="1284" height="179" key="GridCell.Tab.1.left" timestamp="1686084327626">
+    <state width="1284" height="179" key="GridCell.Tab.1.center/0.32.1366.736@0.32.1366.736" timestamp="1686356297639" />
+    <state width="1284" height="179" key="GridCell.Tab.1.left" timestamp="1686356297639">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1284" height="179" key="GridCell.Tab.1.left/0.32.1366.736@0.32.1366.736" timestamp="1686084327626" />
-    <state width="1284" height="179" key="GridCell.Tab.1.right" timestamp="1686084327627">
+    <state width="1284" height="179" key="GridCell.Tab.1.left/0.32.1366.736@0.32.1366.736" timestamp="1686356297639" />
+    <state width="1284" height="179" key="GridCell.Tab.1.right" timestamp="1686356297639">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1284" height="179" key="GridCell.Tab.1.right/0.32.1366.736@0.32.1366.736" timestamp="1686084327627" />
+    <state width="1284" height="179" key="GridCell.Tab.1.right/0.32.1366.736@0.32.1366.736" timestamp="1686356297639" />
     <state x="30" y="69" width="1024" height="699" key="SettingsEditor" timestamp="1685800966750">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -498,14 +485,14 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="221" y="348" width="631" height="184" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.32.1366.736@0.32.1366.736" timestamp="1685800931977" />
-    <state x="416" y="214" width="524" height="554" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1686163346138">
+    <state x="416" y="214" width="524" height="554" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1686512671296">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="416" y="214" width="524" height="554" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.32.1366.736@0.32.1366.736" timestamp="1686163346138" />
-    <state x="377" y="92" width="456" height="676" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1686083872849">
+    <state x="416" y="214" width="524" height="554" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.32.1366.736@0.32.1366.736" timestamp="1686512671296" />
+    <state x="377" y="92" width="456" height="676" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1686501210429">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="377" y="92" width="456" height="676" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.32.1366.736@0.32.1366.736" timestamp="1686083872849" />
+    <state x="377" y="92" width="456" height="676" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.32.1366.736@0.32.1366.736" timestamp="1686501210429" />
     <state x="416" y="286" width="534" height="456" key="extract.method.dialog" timestamp="1685905227895">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -514,15 +501,15 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="283" y="155" key="new project wizard/0.32.1366.736@0.32.1366.736" timestamp="1685407313920" />
-    <state x="687" y="58" width="672" height="709" key="search.everywhere.popup" timestamp="1685905667304">
+    <state x="687" y="58" width="672" height="709" key="search.everywhere.popup" timestamp="1686496852317">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="687" y="58" width="672" height="709" key="search.everywhere.popup/0.32.1366.736@0.32.1366.736" timestamp="1685905667304" />
+    <state x="687" y="58" width="672" height="709" key="search.everywhere.popup/0.32.1366.736@0.32.1366.736" timestamp="1686496852317" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/documin/controllers/ElementoController.java" />
-    <entry file="file://$PROJECT_DIR$/src/documin/repositorios/RepositorioDocumentos.java" />
-    <entry file="file://$PROJECT_DIR$/src/documin/repositorios/RepositorioElementos.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/controllers/ElementoController.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/repositorios/RepositorioDocumentos.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/repositorios/RepositorioElementos.java" />
     <entry file="file://$PROJECT_DIR$/lab05.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -533,272 +520,311 @@
     <entry file="uml://JAVA//home/zak/repos/lp2/lab05/src">
       <provider selected="true" editor-type-id="UmlEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/visoes/Visivel.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Titulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="777">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/visoes/VisaoPrioritaria.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Texto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/visoes/VisaoResumida.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/visoes/Visivel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/visoes/VisaoTitulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/visoes/Visao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/visoes/VisaoCompleta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/facade/Facade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2826#2827#0" expanded="true" />
-            <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="e#3227#3228#0" expanded="true" />
-            <element signature="e#3293#3294#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
-            <element signature="e#3400#3401#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.config/ideavim/ideavimrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="231">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/controllers/VisaoController.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/visoes/Visao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        <state relative-caret-position="420">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/visoes/VisaoCompleta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/documin/elementos/AtalhoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/visoes/VisaoPrioritaria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="208">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/documin/elementos/DocumentoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/visoes/VisaoResumida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/elementos/Lista.java">
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/visoes/VisaoTituloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/visoes/VisaoResumidaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/visoes/VisaoPrioritariaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/visoes/VisaoCompletaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/elementos/TituloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/elementos/TextoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/elementos/TermosTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/documin/elementos/ListaTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/elementos/DocumentoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="313">
+          <caret line="413" column="4" selection-start-line="413" selection-start-column="4" selection-end-line="413" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/elementos/Ordem.java">
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/controllers/VisaoControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1575#1576#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/elementos/AtalhoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/elementos/ListaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/controllers/DocumentoControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2557">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lab5IsaacVicente/controllers/ElementosControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="299" column="63" selection-start-line="299" selection-start-column="63" selection-end-line="299" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/controllers/ElementosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Atalho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Documento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3381">
+          <caret line="177" column="67" selection-start-line="177" selection-start-column="67" selection-end-line="177" selection-end-column="67" />
+          <folding>
+            <element signature="e#2429#2430#0" expanded="true" />
+            <element signature="e#2490#2491#0" expanded="true" />
+            <element signature="e#7176#7177#0" expanded="true" />
+            <element signature="e#7253#7254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Elemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Lista.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/documin/elementos/TermosTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Ordem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/elementos/Texto.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/elementos/Termos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="1218">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/documin/elementos/TextoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/controllers/DocumentoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4347">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/controllers/VisaoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/facade/Facade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab5IsaacVicente/visoes/VisaoTitulo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/elementos/Termos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/elementos/Titulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/documin/elementos/TituloTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/documin/controllers/VisaoControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3234">
-          <caret line="168" column="9" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/elementos/Documento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1839#1840#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#2156#2157#0" expanded="true" />
-            <element signature="e#2217#2218#0" expanded="true" />
-            <element signature="e#2272#2273#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
-            <element signature="e#5625#5626#0" expanded="true" />
-            <element signature="e#5696#5697#0" expanded="true" />
-            <element signature="e#5755#5756#0" expanded="true" />
-            <element signature="e#5826#5827#0" expanded="true" />
-            <element signature="e#5866#5867#0" expanded="true" />
-            <element signature="e#5931#5932#0" expanded="true" />
-            <element signature="e#7258#7259#0" expanded="true" />
-            <element signature="e#7292#7293#0" expanded="true" />
-            <element signature="e#8251#8252#0" expanded="true" />
-            <element signature="e#8303#8304#0" expanded="true" />
-            <element signature="e#8734#8735#0" expanded="true" />
-            <element signature="e#8777#8778#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/controllers/DocumentoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/documin/controllers/DocumentoControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="446" selection-start-line="446" selection-end-line="446" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/elementos/Elemento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-812">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/elementos/Atalho.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documin/controllers/ElementosController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
           </folding>
         </state>
       </provider>
