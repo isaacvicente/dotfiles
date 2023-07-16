@@ -1,4 +1,4 @@
 dot_vim/dot_netrwhist
 dot_vim/plugged
-dot_zcompdump
-private_dot_histfile
+private_dot_config/zsh/dot_zcompdump
+private_dot_config/zsh/private_dot_histfile

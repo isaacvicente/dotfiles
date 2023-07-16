@@ -14,8 +14,6 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/zak/.config/zsh/.zshrc'
 
-export KEYTIMEOUT=1
-
 # Fix the most annoying thing about vi-mode in zsh
 # (can't backspace within insert mode)
 bindkey "^?" backward-delete-char
@@ -61,7 +59,7 @@ fi
 
 source ~/.config/fzf/config
 
-source "$ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme"
+source "$ZDOTDIR/themes/powerlevel10k/powerlevel10k.zsh-theme"
 
 function nvims() {
   items=("main" "kickstart" "LazyVim" "NvChad")
@@ -81,7 +79,7 @@ bindkey -s ^a "nvims\n"
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
-fpath=("$ZDOTDIR/zsh-completions/src" $fpath)
-source "$ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh"
-source "$ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" 2> /dev/null # Must be at end
+fpath=("$ZDOTDIR/plugins/zsh-completions/src" $fpath)
+source "$ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "$ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" 2> /dev/null # Must be at end
 
