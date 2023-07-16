@@ -1,5 +1,9 @@
 " Set the catppucin_mocha colorscheme
-colorscheme catppuccin_mocha
+if exists(catppuccin)
+    colorscheme catppuccin_mocha
+endif
 
 " Or... set the gruvbox-material theme
-" colorscheme gruvbox-material
+" if exists(gruvbox-material)
+"     colorscheme gruvbox-material
+" endif
