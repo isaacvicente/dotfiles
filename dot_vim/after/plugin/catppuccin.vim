@@ -1,7 +1,7 @@
 " Set the catppucin_mocha colorscheme
-if exists(catppuccin)
+function! has#colorscheme(catppuccin_mocha) abort
     colorscheme catppuccin_mocha
-endif
+endfunction
 
 " Or... set the gruvbox-material theme
 " if exists(gruvbox-material)
