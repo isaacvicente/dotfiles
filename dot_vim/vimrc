@@ -204,7 +204,7 @@ set termguicolors
 
 " Set the catppucin_mocha colorscheme
 if &runtimepath =~ 'catppuccin'
-    colorscheme catppuccin_mocha
+    silent! colorscheme catppuccin_mocha
 else
     colorscheme evening
 endif
