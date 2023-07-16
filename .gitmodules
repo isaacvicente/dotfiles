@@ -1,0 +1,6 @@
+[submodule "private_dot_config/bat/external_themes/catppuccin"]
+	path = private_dot_config/bat/external_themes/catppuccin
+	url = https://github.com/catppuccin/bat.git
+[submodule "private_dot_config/tmux/external_plugins/tpm"]
+	path = private_dot_config/tmux/external_plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
