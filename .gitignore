@@ -1,3 +1,4 @@
-dot_netrwhist
+dot_vim/dot_netrwhist
+dot_vim/plugged
 dot_zcompdump
 private_dot_histfile
