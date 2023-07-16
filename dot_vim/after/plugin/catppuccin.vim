@@ -1,5 +1,5 @@
 " Set the catppucin_mocha colorscheme
-if &runtimepath =~ 'catppuccin'
+if &runtimepath =~? 'catppuccin'
     colorscheme catppuccin_mocha
 endif
 
