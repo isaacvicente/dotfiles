@@ -57,6 +57,7 @@ call plug#begin()
 
 " Plugin outside ~/.vim/plugged with post-update hook
 " Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
@@ -200,14 +201,6 @@ set termguicolors
 " ---------------------------------------------------------
 " Colorscheme
 " ---------------------------------------------------------
-" Set the catppucin_mocha colorscheme
-colorscheme catppuccin_mocha
 
-" Or... set the gruvbox-material theme
-" colorscheme gruvbox-material
-
-" Set the catppuccin_mocha color scheme provided by https://github.com/catppuccin/vim#lightline
-let g:lightline = {'colorscheme': 'catppuccin_mocha'} 
-
-" Or... set the gruvbox_material theme provided by https://github.com/sainnhe/gruvbox-material/blob/master/doc/gruvbox-material.txt
-" let g:lightline = {'colorscheme': 'gruvbox_material'}
+" Default colorscheme
+colorscheme evening
