@@ -1,9 +1,9 @@
 " Set the catppucin_mocha colorscheme
-function! has#colorscheme(catppuccin_mocha) abort
+if isdirectory("$HOME/.vim/plugged/catppuccin")
     colorscheme catppuccin_mocha
-endfunction
+endif
 
 " Or... set the gruvbox-material theme
-" if exists(gruvbox-material)
+" if isdirectory("$HOME/.vim/plugged/gruvbox-material")
 "     colorscheme gruvbox-material
 " endif
