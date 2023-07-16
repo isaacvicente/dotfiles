@@ -202,5 +202,30 @@ set termguicolors
 " Colorscheme
 " ---------------------------------------------------------
 
-" Default colorscheme
-colorscheme evening
+" Set the catppucin_mocha colorscheme
+if &runtimepath =~ 'catppuccin'
+    colorscheme catppuccin_mocha
+else
+    colorscheme evening
+endif
+
+" Or... set the gruvbox-material theme
+" if &runtimepath =~ 'gruvbox-material'
+"     colorscheme catppuccin_mocha
+" else
+"     colorscheme evening
+" endif
+
+" ---------------------------------------------------------
+" Status line
+" ---------------------------------------------------------
+
+" Set the catppuccin_mocha color scheme provided by https://github.com/catppuccin/vim#lightline
+if &runtimepath =~ 'catppuccin' && &runtimepath =~ 'lightline.vim'
+    let g:lightline = {'colorscheme': 'catppuccin_mocha'} 
+endif
+
+" Or... set the gruvbox-material theme provided by https://github.com/sainnhe/gruvbox-material/blob/master/doc/gruvbox-material.txt
+" if &runtimepath =~ 'gruvbox-material' && &runtimepath =~ 'lightline.vim'
+"     let g:lightline = {'colorscheme': 'gruvbox-material'} 
+" endif
