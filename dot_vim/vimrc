@@ -174,16 +174,16 @@ set termguicolors
 " if &runtimepath =~ 'catppuccin'
 "     silent! colorscheme catppuccin_mocha
 " else
-"     colorscheme evening
+"     colorscheme retrobox
 " endif
 
 " Or... set the gruvbox-material theme
 if &runtimepath =~ 'gruvbox-material'
     set background=dark
     let g:gruvbox_material_background = 'hard'
-    colorscheme gruvbox-material
+    silent! colorscheme gruvbox-material
 else
-    colorscheme evening
+    colorscheme retrobox
 endif
 
 " ---------------------------------------------------------
