@@ -180,6 +180,7 @@ set termguicolors
 " Or... set the gruvbox-material theme
 if &runtimepath =~ 'gruvbox-material'
     set background=dark
+    let g:gruvbox_material_background = 'hard'
     colorscheme gruvbox-material
 else
     colorscheme evening
