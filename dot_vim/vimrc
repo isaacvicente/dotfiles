@@ -179,7 +179,7 @@ set termguicolors
 
 " Or... set the gruvbox-material theme
 if &runtimepath =~ 'gruvbox-material'
-    background=dark
+    set background=dark
     colorscheme gruvbox-material
 else
     colorscheme evening
