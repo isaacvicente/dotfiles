@@ -1,0 +1,8 @@
+3dc1c1c4c2ee3d6c5841ea1b3c13a7c123592086		branch 'master' of https://github.com/nvim-lua/kickstart.nvim
+2eada65d5231a14765a257078b102984529a6f63	not-for-merge	branch 'autoformat' of https://github.com/nvim-lua/kickstart.nvim
+38c4421eea0b2c6ac298ba1d944b34ee423d7590	not-for-merge	branch 'change-gi-and-comments' of https://github.com/nvim-lua/kickstart.nvim
+d5d83596a401daa6f3b04e804f5c05e47dbf78d4	not-for-merge	branch 'fix-bad-path' of https://github.com/nvim-lua/kickstart.nvim
+d8784b62db6d6371b13895b2b38506ac1c1d2adc	not-for-merge	branch 'lazy-refresh' of https://github.com/nvim-lua/kickstart.nvim
+1bcb10e1ce4ba209390130484618a87a98e81d2a	not-for-merge	branch 'remove_treesitter_textobjects_dep' of https://github.com/nvim-lua/kickstart.nvim
+40fbcf82536c6f858fa5d44ef992fbfb28bc1538	not-for-merge	branch 'server-config' of https://github.com/nvim-lua/kickstart.nvim
+fd8419e0c4ad0846faa8efe9fb8b9b3fd0867412	not-for-merge	branch 'tjdevries-issue-template' of https://github.com/nvim-lua/kickstart.nvim
