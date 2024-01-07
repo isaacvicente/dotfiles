@@ -135,9 +135,8 @@ done
 
 # Try to keep environment pollution down, EPA loves us.
 unset use_color sh
-export PATH=/home/zak/apache-maven-3.9.4/bin:$PATH
 
-#[ -d "$XDG_DATA_HOME/bob/nvim-bin/" ] && export PATH=$XDG_DATA_HOME/bob/nvim-bin/:$PATH
+[ -d "$XDG_DATA_HOME/bob/nvim-bin/" ] && export PATH=$XDG_DATA_HOME/bob/nvim-bin/:$PATH
 
 [ -f $XDG_CONFIG_HOME/fzf/key-bindings.bash ] && source $XDG_CONFIG_HOME/fzf/key-bindings.bash
 [ -f $XDG_CONFIG_HOME/fzf/completion.bash ] && source $XDG_CONFIG_HOME/fzf/completion.bash

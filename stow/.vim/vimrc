@@ -150,7 +150,9 @@ xnoremap # y?\V<C-R>"<CR>
 nnoremap & :&&>CR>
 
 "" Open the NetRW explorer
-nnoremap <leader>e :Vex<CR>
+nnoremap <leader>e :Ex<CR>
+
+"" Source vimrc
 nnoremap <leader><CR> :so ~/.vim/vimrc<CR>
 
 "" Makes delete do not copy any shit
