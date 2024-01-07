@@ -1,2 +1,4 @@
 stow/.vim/plugged/
+stow/.vim/autoload/
 stow/.vim/undo/
+stow/.vim/.netrwhist
