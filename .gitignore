@@ -1,4 +1,2 @@
-dot_vim/dot_netrwhist
-dot_vim/plugged
-private_dot_config/zsh/dot_zcompdump
-private_dot_config/zsh/private_dot_histfile
+stow/.vim/plugged/
+stow/.vim/undo/

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/zak/.config/tmux'
+let g:netrw_dirhist_9='/home'
+let g:netrw_dirhist_8='/home/zak'
+let g:netrw_dirhist_7='/home/zak/.vim'
+let g:netrw_dirhist_6='/home/zak'
+let g:netrw_dirhist_5='/home/zak/docker'
+let g:netrw_dirhist_4='/home/zak/docker/getting-started'
+let g:netrw_dirhist_3='/home/zak/docker'
+let g:netrw_dirhist_2='/home/zak'
+let g:netrw_dirhist_1='/home/zak/nvim/lua/plugins'

@@ -1,0 +1,16 @@
+[user]
+	name = Isaac Vicente
+	email = contatoisaacvicente@gmail.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false
+[alias]
+	d = difftool
+[diff]
+	tool = vimdiff
+	prompt = false
+[difftool]
+	prompt = false

@@ -1,7 +1,0 @@
-<application>
-  <component name="TipsFeedback">
-    <tipToLikeness>
-      <entry key="CommentCode" value="true" />
-    </tipToLikeness>
-  </component>
-</application>

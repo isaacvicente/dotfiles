@@ -1,9 +1,0 @@
-[user]
-	name = Isaac Vicente
-	email = contatoisaacvicente@gmail.com
-[init]
-	defaultBranch = main
-[color]
-	ui = auto
-[pull]
-	rebase = false
