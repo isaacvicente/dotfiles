@@ -1,3 +1,21 @@
+# Fonts
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[window]
+opacity = 0.8
+
+# Gruvbox
+
 [colors.bright]
 black = "0x928374"
 blue = "0x83a598"

@@ -30,7 +30,7 @@
     background_darkness = 0.7
     background_type = transparent
     cursor_bg_color = "#f5e0dc"
-    font = JetBrainsMono Nerd Font 10
+    font = JetBrains Mono 10
     foreground_color = "#cdd6f4"
     scrollbar_position = hidden
     scrollback_lines = 99999
