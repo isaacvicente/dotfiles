@@ -20,6 +20,7 @@ set $term alacritty
 # on the original workspace that the command was run on.
 # set $menu dmenu_path | dmenu | xargs swaymsg exec --
 set $menu rofi -show drun
+# set $menu wofi --show drun
 
 # Preferred browser
 # set $browser firefox
