@@ -6,3 +6,5 @@ stow/.config/terminator/plugins/__pycache__/
 
 stow/.config/tmux/plugins/*
 !stow/.config/tmux/plugins/tpm/
+
+stow/.config/zsh/.histfile
