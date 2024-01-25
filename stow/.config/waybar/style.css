@@ -2,7 +2,8 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: MesloGSL NF Regular, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    /* font-family: MesloGSL NF Regular, FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+    font-family: JetBrainsMono Nerd Font;
     font-size: 14px;
     border-radius: 5px;
     color: @text;
