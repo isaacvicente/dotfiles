@@ -84,7 +84,6 @@ set smartcase              " If using at least one uppercase character, search c
 set timeoutlen=500 ttimeoutlen=0   " Make ESC a little faster
 
 set ttyfast                " Faster redrawing.
-set lazyredraw             " Only redraw when necessary.
 
 set splitbelow             " Open new windows below the current window.
 set splitright             " Open new windows right of the current window.
