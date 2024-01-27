@@ -88,7 +88,11 @@ set ttyfast                " Faster redrawing.
 set splitbelow             " Open new windows below the current window.
 set splitright             " Open new windows right of the current window.
 
-set undodir=$HOME/.vim/undo// " Directory where the undo files will be stored
+if !isdirectory("$HOME/.vim/undo")
+    call mkdir($HOME .. "/.vim/undo", "p", 0o700)
+endif
+
+set undodir=$HOME/.vim/undo " Directory where the undo files will be stored
 set undofile
 
 set cursorline             " Find the current line quickly.
