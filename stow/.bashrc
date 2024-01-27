@@ -66,8 +66,8 @@ if [[ -f "$XDG_CONFIG_HOME/git/git-prompt.sh" ]]; then
     source "$XDG_CONFIG_HOME/git/git-prompt.sh"
 fi
 
-if [[ -f "$XDG_CONFIG_HOME/git/git-completion.sh" ]]; then
-    source "$XDG_CONFIG_HOME/git/git-completion.sh"
+if [[ -f "$XDG_CONFIG_HOME/git/git-completion.bash" ]]; then
+    source "$XDG_CONFIG_HOME/git/git-completion.bash"
 fi
 
 export GIT_PS1_SHOWDIRTYSTATE=1
@@ -91,5 +91,3 @@ PROMPT_COMMAND='__git_ps1 "\[\e[33m\]\u\[\e[0m\]@\[\e[34m\]\h\[\e[0m\]:\[\e[35m\
 [ -f $XDG_CONFIG_HOME/fzf/completion.bash ] && source $XDG_CONFIG_HOME/fzf/completion.bash
 
 [ -f "/home/zak/.ghcup/env" ] && source "/home/zak/.ghcup/env" # ghcup-env
-
-echo $HOME
