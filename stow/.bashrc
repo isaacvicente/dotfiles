@@ -85,6 +85,10 @@ PROMPT_COMMAND='__git_ps1 "\[\e[33m\]\u\[\e[0m\]@\[\e[34m\]\h\[\e[0m\]:\[\e[35m\
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+if [[ -f "~/.work-aliases" ]]; then
+    source "~/.work-aliases"
+fi
+
 [ -d "$XDG_DATA_HOME/bob/nvim-bin/" ] && export PATH=$XDG_DATA_HOME/bob/nvim-bin/:$PATH
 
 [ -f $XDG_CONFIG_HOME/fzf/key-bindings.bash ] && source $XDG_CONFIG_HOME/fzf/key-bindings.bash
