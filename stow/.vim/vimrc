@@ -41,8 +41,16 @@ Plug 'tpope/vim-commentary'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'sainnhe/gruvbox-material'
 Plug 'mbbill/undotree'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 
 call plug#end()
+
+if v:version >= 800
+    " I hate automatic folding
+    set foldmethod=manual
+    set nofoldenable
+endif
 
 " ---------------------------------------------------------
 " Sane defaults

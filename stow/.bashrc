@@ -29,6 +29,11 @@ if command -v glow &>/dev/null; then
     eval "$(glow completion bash)"
 fi
 
+# openstack auto completion for bash
+if command -v openstack &>/dev/null; then
+    eval "$(openstack complete)"
+fi
+
 ## Bash functions (https://wiki.archlinux.org/title/Bash/Functions)
 # cd and ls in one
 cl() {
@@ -93,5 +98,9 @@ fi
 
 [ -f $XDG_CONFIG_HOME/fzf/key-bindings.bash ] && source $XDG_CONFIG_HOME/fzf/key-bindings.bash
 [ -f $XDG_CONFIG_HOME/fzf/completion.bash ] && source $XDG_CONFIG_HOME/fzf/completion.bash
+
+if [[ -d ~/.fzf/bin ]]; then
+    export PATH=~/.fzf/bin:$PATH
+fi
 
 [ -f "/home/zak/.ghcup/env" ] && source "/home/zak/.ghcup/env" # ghcup-env
