@@ -31,7 +31,7 @@ fi
 
 # openstack auto completion for bash
 if command -v openstack &>/dev/null; then
-    eval "$(openstack complete)"
+    eval "$(openstack complete --shell bash)"
 fi
 
 ## Bash functions (https://wiki.archlinux.org/title/Bash/Functions)
