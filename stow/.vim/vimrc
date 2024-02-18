@@ -73,7 +73,7 @@ set shiftround             " >> indents to next multiple of 'shiftwidth'.
 set scrolloff   =4         " Keep 4 lines below and above the cursor
 
 set noerrorbells visualbell t_vb=  " Disable audible bell because it's annoying.
-set shortmess   +=I        " Disable the default Vim startup message.
+" set shortmess   +=I        " Disable the default Vim startup message.
 set mouse       +=a        " Enable mouse support.
 
 set backspace   =indent,eol,start  " Make backspace work as you would expect.
