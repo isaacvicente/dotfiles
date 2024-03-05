@@ -78,10 +78,8 @@ export GIT_PS1_SHOWCOLORHINTS=1
 export GIT_PS1_DESCRIBE_STYLE="branch"
 # export GIT_PS1_SHOWUPSTREAM="auto git"
 
-# export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
-
-# colorized prompt
-PROMPT_COMMAND='__git_ps1 "\[\e[33m\]\u\[\e[0m\]@\[\e[34m\]\h\[\e[0m\]:\[\e[35m\]\w\[\e[0m\]" " \n$ "'
+# colorized prompt with git branch
+export PS1='\[\e[33m\]\u\[\e[0m\]@\[\e[34m\]\h\[\e[0m\]:\[\e[35m\]\w\[\e[0m\] $(__git_ps1 "(%s)")\n$ '
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
