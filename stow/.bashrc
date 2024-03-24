@@ -93,10 +93,16 @@ fi
 [ -f $XDG_CONFIG_HOME/fzf/completion.bash ] && source $XDG_CONFIG_HOME/fzf/completion.bash
 # openstack auto completion for bash
 # run: openstack complete --shell bash > ~/.openstack_completion.bash
-[ -f  ~/.openstack_completion.bash ] && source ~/.openstack_completion.bash
+[ -f ~/.openstack_completion.bash ] && source ~/.openstack_completion.bash
 
 if [[ -d ~/.fzf/bin ]]; then
-	export PATH=~/.fzf/bin:$PATH
+    export PATH=~/.fzf/bin:$PATH
+fi
+
+if [[ -f $HOME/.sdkman/bin/sdkman-init.sh ]]; then
+    source "$HOME/.sdkman/bin/sdkman-init.sh"
 fi
 
 [ -f "/home/zak/.ghcup/env" ] && source "/home/zak/.ghcup/env" # ghcup-env
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
