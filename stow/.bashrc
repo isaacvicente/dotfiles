@@ -21,30 +21,30 @@ eval "$(dircolors)"
 
 # Initialization of zoxide
 if command -v zoxide &>/dev/null; then
-	eval "$(zoxide init bash)"
+    eval "$(zoxide init bash)"
 fi
 
 # glow completion for bash
 if command -v glow &>/dev/null; then
-	eval "$(glow completion bash)"
+    eval "$(glow completion bash)"
 fi
 
 ## Bash functions (https://wiki.archlinux.org/title/Bash/Functions)
 # cd and ls in one
 cl() {
-	local dir="$1"
-	local dir="${dir:=$HOME}"
-	if [[ -d "$dir" ]]; then
-		cd "$dir" >/dev/null
-		ls --color=auto
-	else
-		echo "bash: cl: $dir: Directory not found"
-	fi
+    local dir="$1"
+    local dir="${dir:=$HOME}"
+    if [[ -d "$dir" ]]; then
+        cd "$dir" >/dev/null
+        ls --color=auto
+    else
+        echo "bash: cl: $dir: Directory not found"
+    fi
 }
 
 ## Source the ~/.aliases file
 if [[ -f ~/.aliases ]]; then
-	source ~/.aliases
+    source ~/.aliases
 fi
 
 # ~~~~~~~~~~ Bash prompt ~~~~~~~~~~
@@ -63,11 +63,11 @@ shopt -s histappend
 # from: https://github.com/mischavandenburg/dotfiles/blob/main/.bashrc
 
 if [[ -f "$XDG_CONFIG_HOME/git/git-prompt.sh" ]]; then
-	source "$XDG_CONFIG_HOME/git/git-prompt.sh"
+    source "$XDG_CONFIG_HOME/git/git-prompt.sh"
 fi
 
 if [[ -f "$XDG_CONFIG_HOME/git/git-completion.bash" ]]; then
-	source "$XDG_CONFIG_HOME/git/git-completion.bash"
+    source "$XDG_CONFIG_HOME/git/git-completion.bash"
 fi
 
 export GIT_PS1_SHOWDIRTYSTATE=1
@@ -84,7 +84,7 @@ export PS1='\[\e[33m\]\u\[\e[0m\]@\[\e[34m\]\h\[\e[0m\]:\[\e[35m\]\w\[\e[0m\] $(
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 if [[ -f "~/.work-aliases" ]]; then
-	source "~/.work-aliases"
+    source "~/.work-aliases"
 fi
 
 [ -d "$XDG_DATA_HOME/bob/nvim-bin/" ] && export PATH=$XDG_DATA_HOME/bob/nvim-bin/:$PATH
@@ -105,4 +105,10 @@ fi
 
 [ -f "/home/zak/.ghcup/env" ] && source "/home/zak/.ghcup/env" # ghcup-env
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+if [[ -f $HOME/.sdkman/bin/sdkman-init.sh ]]; then
+    source "$HOME/.sdkman/bin/sdkman-init.sh"
+fi
+
+BREW_BIN="/home/linuxbrew/.linuxbrew/bin/brew"
+
+[ -f $BREW_BIN ] && eval "$($BREW_BIN shellenv)"
