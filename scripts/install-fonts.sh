@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
-font_dir=~/.local/share/fonts
+# Script to install JetBrains Nerd Font
+
+FONT_DIR=~/.local/share/fonts
 
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
-mkdir -p "${font_dir}"
-mv JetBrainsMono.tar.xz "${font_dir}"
-mkdir -p "${font_dir}/JetBrainsMono"
-tar -xf "${font_dir}/JetBrainsMono.tar.xz" --directory "${font_dir}/JetBrainsMono"
-rm "${font_dir}/JetBrainsMono.tar.xz"
+mkdir -p "${FONT_DIR}"
+mv JetBrainsMono.tar.xz "${FONT_DIR}"
+mkdir -p "${FONT_DIR}/JetBrainsMono"
+tar -xf "${FONT_DIR}/JetBrainsMono.tar.xz" --directory "${FONT_DIR}/JetBrainsMono"
+rm "${FONT_DIR}/JetBrainsMono.tar.xz"
