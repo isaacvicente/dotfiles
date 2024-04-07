@@ -103,6 +103,14 @@ endif
 set undodir=$HOME/.vim/undo " Directory where the undo files will be stored
 set undofile
 
+" Make Vim more secure
+" <https://docs.ansible.com/ansible/latest/vault_guide/vault_encrypting_content.html#vim>
+set noswapfile
+set nobackup
+set nowritebackup
+set viminfo=
+set clipboard=
+
 set cursorline             " Find the current line quickly.
 set wrapscan               " Searches wrap around end-of-file.
 set report      =0         " Always report changed lines.
