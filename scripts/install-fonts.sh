@@ -9,3 +9,6 @@ mv JetBrainsMono.tar.xz "${FONT_DIR}"
 mkdir -p "${FONT_DIR}/JetBrainsMono"
 tar -xf "${FONT_DIR}/JetBrainsMono.tar.xz" --directory "${FONT_DIR}/JetBrainsMono"
 rm "${FONT_DIR}/JetBrainsMono.tar.xz"
+
+# Load fonts
+fc-cache
