@@ -38,11 +38,11 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
-Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'sainnhe/gruvbox-material'
 Plug 'mbbill/undotree'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'rose-pine/vim', { 'as': 'rosepine' }
 
 call plug#end()
 
@@ -208,19 +208,25 @@ if &runtimepath =~ 'gruvbox-material'
     let g:gruvbox_material_background = 'hard'
     silent! colorscheme gruvbox-material
 else
-    colorscheme retrobox
+    colorscheme evening
 endif
+
+" if &runtimepath =~ 'rosepine'
+"     set background=dark
+"     silent! colorscheme rosepine_moon
+" else
+"     colorscheme evening
+" endif
 
 " ---------------------------------------------------------
 " Status line
 " ---------------------------------------------------------
 
-" Set the catppuccin_mocha color scheme provided by https://github.com/catppuccin/vim#lightline
-" if &runtimepath =~ 'catppuccin' && &runtimepath =~ 'lightline.vim'
-"     let g:lightline = {'colorscheme': 'catppuccin_mocha'} 
-" endif
-
 " Or... set the gruvbox-material theme provided by https://github.com/sainnhe/gruvbox-material/blob/master/doc/gruvbox-material.txt
 if &runtimepath =~ 'gruvbox-material' && &runtimepath =~ 'lightline.vim'
     let g:lightline = {'colorscheme': 'gruvbox_material'} 
 endif
+
+" if &runtimepath =~ 'rosepine' && &runtimepath =~ 'lightline.vim'
+"     let g:lightline = {'colorscheme': 'rosepine_moon'} 
+" endif
