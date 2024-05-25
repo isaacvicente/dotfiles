@@ -188,21 +188,14 @@ vnoremap d "_d
 " Provides tab-completion for all file-related tasks
 set path+=**
 
-" Enable more colors so you can use the Catppuccin color scheme
+" Use real terminal colors
 set termguicolors
 
 " ---------------------------------------------------------
 " Colorscheme
 " ---------------------------------------------------------
 
-" Set the catppucin_mocha colorscheme
-" if &runtimepath =~ 'catppuccin'
-"     silent! colorscheme catppuccin_mocha
-" else
-"     colorscheme retrobox
-" endif
-
-" Or... set the gruvbox-material theme
+" Set the gruvbox-material theme
 if &runtimepath =~ 'gruvbox-material'
     set background=dark
     let g:gruvbox_material_background = 'hard'
@@ -211,6 +204,7 @@ else
     colorscheme evening
 endif
 
+" Or... set the rosepine theme
 " if &runtimepath =~ 'rosepine'
 "     set background=dark
 "     silent! colorscheme rosepine_moon
