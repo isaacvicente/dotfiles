@@ -27,6 +27,9 @@ alias lz='ll -rS'                   # Sort by size
 alias lt='ll -rt'                   # Sort by date
 alias lm='la | more'
 
+alias cd..='cd ..'
+alias ..='cd ..'
+
 ## wget XDG Base Directory support
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 
