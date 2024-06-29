@@ -36,6 +36,9 @@ call plug#begin()
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tpope/vim-fugitive'
+Plug 'mhinz/vim-signify',
+Plug 'tpope/vim-vinegar',
+Plug 'junegunn/fzf.vim',
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'sainnhe/gruvbox-material'
@@ -90,6 +93,7 @@ set ignorecase             " If using just lowercase characters, search case ins
 set smartcase              " If using at least one uppercase character, search case sensitive.
 
 set timeoutlen=500 ttimeoutlen=0   " Make ESC a little faster
+set updatetime=100
 
 set ttyfast                " Faster redrawing.
 
@@ -201,7 +205,7 @@ if &runtimepath =~ 'gruvbox-material'
     let g:gruvbox_material_background = 'hard'
     silent! colorscheme gruvbox-material
 else
-    colorscheme evening
+    colorscheme habamax
 endif
 
 " Or... set the rosepine theme
@@ -209,7 +213,7 @@ endif
 "     set background=dark
 "     silent! colorscheme rosepine_moon
 " else
-"     colorscheme evening
+"     colorscheme habamax
 " endif
 
 " ---------------------------------------------------------
@@ -220,6 +224,7 @@ endif
 if &runtimepath =~ 'gruvbox-material' && &runtimepath =~ 'lightline.vim'
     let g:lightline = {'colorscheme': 'gruvbox_material'} 
 endif
+
 
 " if &runtimepath =~ 'rosepine' && &runtimepath =~ 'lightline.vim'
 "     let g:lightline = {'colorscheme': 'rosepine_moon'} 
