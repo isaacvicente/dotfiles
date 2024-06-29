@@ -60,6 +60,17 @@ shopt -s no_empty_cmd_completion
 # Enable history appending instead of overwriting when exiting.  #139609
 shopt -s histappend
 
+# Unlimited history list
+# https://stackoverflow.com/a/12234989
+export HISTSIZE=-1
+export HISTFILESIZE=-1
+
+# Avoid duplicates in Bash `history`..
+export HISTCONTROL=ignoredups:erasedups
+
+# After each command, save and reload history
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
 # from: https://github.com/mischavandenburg/dotfiles/blob/main/.bashrc
 
 if [[ -f "$XDG_CONFIG_HOME/git/git-prompt.sh" ]]; then
@@ -83,11 +94,9 @@ export PS1='\[\e[33m\]\u\[\e[0m\]@\[\e[34m\]\h\[\e[0m\]:\[\e[35m\]\w\[\e[0m\] $(
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-if [[ -f "~/.work-aliases" ]]; then
-    source "~/.work-aliases"
+if [[ -f ~/.work ]]; then
+    source ~/.work
 fi
-
-[ -d "$XDG_DATA_HOME/bob/nvim-bin/" ] && export PATH=$XDG_DATA_HOME/bob/nvim-bin/:$PATH
 
 [ -f $XDG_CONFIG_HOME/fzf/key-bindings.bash ] && source $XDG_CONFIG_HOME/fzf/key-bindings.bash
 [ -f $XDG_CONFIG_HOME/fzf/completion.bash ] && source $XDG_CONFIG_HOME/fzf/completion.bash
@@ -99,16 +108,4 @@ if [[ -d ~/.fzf/bin ]]; then
     export PATH=~/.fzf/bin:$PATH
 fi
 
-if [[ -f $HOME/.sdkman/bin/sdkman-init.sh ]]; then
-    source "$HOME/.sdkman/bin/sdkman-init.sh"
-fi
-
 [ -f "/home/zak/.ghcup/env" ] && source "/home/zak/.ghcup/env" # ghcup-env
-
-if [[ -f $HOME/.sdkman/bin/sdkman-init.sh ]]; then
-    source "$HOME/.sdkman/bin/sdkman-init.sh"
-fi
-
-BREW_BIN="/home/linuxbrew/.linuxbrew/bin/brew"
-
-[ -f $BREW_BIN ] && eval "$($BREW_BIN shellenv)"
