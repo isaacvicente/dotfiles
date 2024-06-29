@@ -12,3 +12,4 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
 vim.opt.clipboard = ""
+vim.opt.spelllang = 'en_us,pt_br'

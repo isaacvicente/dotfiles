@@ -6,15 +6,18 @@
 
 ### Variables
 #
-# Logo key. Use Mod1 for Alt.
-set $mod Mod4
+# Logo key. Use Mod1 for Alt or Mod4 for Meta (Windows key)
+set $mod Mod1
+
 # Home row direction keys, like vim
 set $left h
 set $down j
 set $up k
 set $right l
+
 # Your preferred terminal emulator
 set $term alacritty
+
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -24,8 +27,8 @@ set $menu rofi -show drun
 
 # Preferred browser
 # set $browser firefox
-# set $browser flatpak run com.google.Chrome
-set $browser google-chrome-stable
+set $browser flatpak run com.google.Chrome
+# set $browser google-chrome-stable
 
 ### Output configuration
 #
@@ -83,7 +86,7 @@ bindgesture swipe:right workspace prev
 bindgesture swipe:left workspace next
 
 # Gaps
-gaps inner 4
+gaps inner 3
 
 # Fonts
 font JetBrainsMono Nerd Font Regular 10
@@ -169,10 +172,10 @@ default_border pixel 2
     bindsym $mod+Shift+9 move container to workspace number 9
     bindsym $mod+Shift+0 move container to workspace number 10
 
-    bindsym $mod+Alt+Right workspace next
-    bindsym $mod+Alt+Left workspace prev
-    bindsym $mod+Alt+l workspace next
-    bindsym $mod+Alt+h workspace prev
+    # bindsym $mod+Alt+Right workspace next
+    # bindsym $mod+Alt+Left workspace prev
+    # bindsym $mod+Alt+l workspace next
+    # bindsym $mod+Alt+h workspace prev
 
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
@@ -275,3 +278,4 @@ bar {
 }
 
 include /etc/sway/config.d/*
+# vim: ts=4 sts=4 sw=4 et

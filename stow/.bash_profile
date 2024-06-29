@@ -4,6 +4,7 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
+
 # Run Firefox with Wayland instead of XWayland
 if [ "$XDG_SESSION_TYPE" == "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
@@ -20,9 +21,6 @@ export EDITOR=vim
 
 # For Docker
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
-
-# Bat as my man pager
-#export MANPAGER="sh -c 'col -bx | bat --theme=Monokai\ Extended -l man -p'"
 
 # For rustup
 export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
