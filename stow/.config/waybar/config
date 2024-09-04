@@ -2,9 +2,9 @@
     "layer": "top",
     "position": "bottom",
     "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["sway/window"],
+    "modules-center": ["custom/spotify", "sway/window"],
     "spacing":6,
-    "modules-right": ["sway/language", "custom/spotify", "clock", "network", "battery", "power-profiles-daemon"],
+    "modules-right": ["sway/language", "clock", "network", "battery", "power-profiles-daemon"],
 
     "sway/window": {
         "max-length": 50
