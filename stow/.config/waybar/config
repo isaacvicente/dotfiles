@@ -60,7 +60,6 @@
 
     "custom/spotify": {
         "format": "{icon} {}",
-        "format-icons": " ",
         "escape": true,
         "return-type": "json",
         "max-length": 40,
