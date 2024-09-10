@@ -1,10 +1,10 @@
 {
     "layer": "top",
     "position": "bottom",
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["custom/spotify", "sway/window"],
-    "spacing":6,
-    "modules-right": ["sway/language", "clock", "network", "battery", "power-profiles-daemon"],
+    "modules-left": ["sway/workspaces", "sway/mode", "custom/spotify"],
+    "modules-center": ["sway/window"],
+    "spacing":9,
+    "modules-right": ["sway/language", "clock", "network", "battery", "power-profiles-daemon", "custom/dunst"],
 
     "sway/window": {
         "max-length": 50
@@ -21,7 +21,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon} ",
+        "format": "{capacity}% {icon}",
         "format-icons": [" ", " ", " ", " ", " "],
         "max-length": 25
     },
@@ -31,10 +31,10 @@
         "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
         "tooltip": true,
         "format-icons": {
-            "default": "  ",
-            "performance": "  ",
-            "balanced": "  ",
-            "power-saver": "  "
+            "default": " ",
+            "performance": " ",
+            "balanced": " ",
+            "power-saver": " "
         }
     },
 
@@ -47,11 +47,11 @@
 
     "network": {
         "format": "{ifname}",
-        "format-wifi": "{essid} ({signalStrength}%)   ",
+        "format-wifi": "{essid} ({signalStrength}%)  ",
         "format-ethernet": "{ipaddr}/{cidr} 󰊗 ",
         "format-disconnected": "", //An empty format will hide the module.
         "tooltip-format": "{ifname} via {gwaddr} 󰊗 ",
-        "tooltip-format-wifi": "{essid} ({signalStrength}%)   ",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)  ",
         "tooltip-format-ethernet": "{ifname}  ",
         "tooltip-format-disconnected": "Disconnected",
         "max-length": 50,
@@ -64,7 +64,6 @@
         "escape": true,
         "return-type": "json",
         "max-length": 40,
-        "interval": 30, // Remove this if your script is endless and write in loop
         "on-click": "playerctl -p spotify play-pause",
         "on-click-right": "killall spotify",
         "smooth-scrolling-threshold": 10, // This value was tested using a trackpad, it should be lowered if using a mouse.
@@ -72,6 +71,12 @@
         "on-scroll-down" : "playerctl -p spotify previous",
         "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null", // Script in resources/custom_modules folder
         "exec-if": "pgrep spotify"
+    },
+
+    "custom/dunst": {
+        "exec": "~/.config/waybar/scripts/dunst.sh",
+        "on-click": "dunstctl set-paused toggle",
+        "restart-interval": 1
     }
 }
 

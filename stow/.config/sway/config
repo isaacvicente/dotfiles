@@ -85,6 +85,9 @@ font JetBrainsMono Nerd Font Regular 10
 # Disable title bar
 default_border pixel 2
 
+# Notification
+exec_always dunst
+
 ### Key bindings
 #
 # Basics:
