@@ -17,34 +17,36 @@ export HISTFILE="$XDG_STATE_HOME"/bash/history
 export PATH=~/.local/bin:$PATH
 
 # I want a colorful `ls`
-eval "$(dircolors)"
+if command -v dircolors &>/dev/null; then
+  eval "$(dircolors)"
+fi
 
 # Initialization of zoxide
 if command -v zoxide &>/dev/null; then
-    eval "$(zoxide init bash)"
+  eval "$(zoxide init bash)"
 fi
 
 # glow completion for bash
 if command -v glow &>/dev/null; then
-    eval "$(glow completion bash)"
+  eval "$(glow completion bash)"
 fi
 
 ## Bash functions (https://wiki.archlinux.org/title/Bash/Functions)
 # cd and ls in one
 cl() {
-    local dir="$1"
-    local dir="${dir:=$HOME}"
-    if [[ -d "$dir" ]]; then
-        cd "$dir" >/dev/null
-        ls --color=auto
-    else
-        echo "bash: cl: $dir: Directory not found"
-    fi
+  local dir="$1"
+  local dir="${dir:=$HOME}"
+  if [[ -d "$dir" ]]; then
+    cd "$dir" >/dev/null
+    ls --color=auto
+  else
+    echo "bash: cl: $dir: Directory not found"
+  fi
 }
 
 ## Source the ~/.aliases file
 if [[ -f ~/.aliases ]]; then
-    source ~/.aliases
+  source ~/.aliases
 fi
 
 # ~~~~~~~~~~ Bash prompt ~~~~~~~~~~
@@ -74,11 +76,11 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 # from: https://github.com/mischavandenburg/dotfiles/blob/main/.bashrc
 
 if [[ -f "$XDG_CONFIG_HOME/git/git-prompt.sh" ]]; then
-    source "$XDG_CONFIG_HOME/git/git-prompt.sh"
+  source "$XDG_CONFIG_HOME/git/git-prompt.sh"
 fi
 
 if [[ -f "$XDG_CONFIG_HOME/git/git-completion.bash" ]]; then
-    source "$XDG_CONFIG_HOME/git/git-completion.bash"
+  source "$XDG_CONFIG_HOME/git/git-completion.bash"
 fi
 
 export GIT_PS1_SHOWDIRTYSTATE=1
@@ -95,7 +97,7 @@ export PS1='\[\e[33m\]\u\[\e[0m\]@\[\e[34m\]\h\[\e[0m\]:\[\e[35m\]\w\[\e[0m\] $(
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 if [[ -f ~/.work ]]; then
-    source ~/.work
+  source ~/.work
 fi
 
 [ -f $XDG_CONFIG_HOME/fzf/key-bindings.bash ] && source $XDG_CONFIG_HOME/fzf/key-bindings.bash
@@ -105,7 +107,7 @@ fi
 [ -f ~/.openstack_completion.bash ] && source ~/.openstack_completion.bash
 
 if [[ -d ~/.fzf/bin ]]; then
-    export PATH=~/.fzf/bin:$PATH
+  export PATH=~/.fzf/bin:$PATH
 fi
 
 [ -f "/home/zak/.ghcup/env" ] && source "/home/zak/.ghcup/env" # ghcup-env

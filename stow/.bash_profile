@@ -4,10 +4,9 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-
 # Run Firefox with Wayland instead of XWayland
 if [ "$XDG_SESSION_TYPE" == "wayland" ]; then
-    export MOZ_ENABLE_WAYLAND=1
+  export MOZ_ENABLE_WAYLAND=1
 fi
 
 ## XDG Base Directory global variables
@@ -60,3 +59,5 @@ export ANDROID_HOME="$XDG_DATA_HOME/android"
 
 # For ansible configuration
 export ANSIBLE_CONFIG="$XDG_CONFIG_HOME/ansible"
+
+complete -C /usr/local/bin/terraform terraform
