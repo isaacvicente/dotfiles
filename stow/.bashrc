@@ -73,8 +73,6 @@ export HISTCONTROL=ignoredups:erasedups
 # After each command, save and reload history
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
-# from: https://github.com/mischavandenburg/dotfiles/blob/main/.bashrc
-
 if [[ -f "$XDG_CONFIG_HOME/git/git-prompt.sh" ]]; then
   source "$XDG_CONFIG_HOME/git/git-prompt.sh"
 fi
@@ -110,8 +108,9 @@ if [[ -d ~/.fzf/bin ]]; then
   export PATH=~/.fzf/bin:$PATH
 fi
 
-[ -f "/home/zak/.ghcup/env" ] && source "/home/zak/.ghcup/env" # ghcup-env
+if [[ -d ~/.rd/bin ]]; then
+  export PATH=~/.rd/bin:$PATH
+fi
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+# Starship prompt
+# eval "$(starship init bash)"

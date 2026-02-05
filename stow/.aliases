@@ -1,5 +1,5 @@
 #######################
-## ~/.aliases 
+## ~/.aliases
 #######################
 
 ## Modified commands
@@ -14,17 +14,17 @@ alias dmesg='dmesg -HL'
 ## Safety features
 alias cp='cp -i'
 alias mv='mv -i'
-alias rm='rm -I'                    # 'rm -i' prompts for every file
+alias rm='rm -I' # 'rm -i' prompts for every file
 
 ## ls
 alias l.='ls -lhad \.*'
 alias ls='ls -hF --color=auto'
-alias lr='ls -R'                    # Recursive ls
+alias lr='ls -R' # Recursive ls
 alias ll='ls -l'
 alias la='ll -A'
-alias lx='ll -BX'                   # Sort by extension
-alias lz='ll -rS'                   # Sort by size
-alias lt='ll -rt'                   # Sort by date
+alias lx='ll -BX' # Sort by extension
+alias lz='ll -rS' # Sort by size
+alias lt='ll -rt' # Sort by date
 alias lm='la | more'
 
 alias cd..='cd ..'
@@ -36,8 +36,19 @@ alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 # ip with colors
 alias ip='ip -c'
 
+# k8s
+alias k='kubectl'
+
 # zathura
 alias zathura='zathura --fork'
 
 # Open things
-alias open='xdg-open'
+OS=$(uname -o)
+if [[ "${OS}" == "GNU/Linux" ]]; then
+  alias open='xdg-open'
+fi
+
+# Openstack
+alias o='openstack'
+
+# vim: ft=sh

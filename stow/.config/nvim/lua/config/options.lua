@@ -13,3 +13,12 @@ opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
 opt.clipboard = ""
+
+-- Disable Snacks.animate animations
+vim.g.snacks_animate = false
+
+-- vim.diagnostic.config({
+--   virtual_lines = {
+--     current_line = true,
+--   },
+-- })

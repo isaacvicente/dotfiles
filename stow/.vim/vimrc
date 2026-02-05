@@ -65,6 +65,8 @@ set nocompatible
 
 filetype plugin indent on  " Load plugins according to detected filetype.
 syntax on                  " Enable syntax highlighting.
+set modeline
+set modelines=1
 
 set number                 " Show line numbers.
 set relativenumber         " Enables relative line numbering mode.
@@ -174,6 +176,10 @@ nnoremap & :&&>CR>
 
 "" Open the NetRW explorer
 nnoremap <leader>e :Ex<CR>
+
+"" fzf.vim
+nnoremap <leader>ff :Files<CR>
+nnoremap <leader>fc :Colors<CR>
 
 "" Source vimrc
 nnoremap <leader><CR> :so ~/.vim/vimrc<CR>
