@@ -113,9 +113,13 @@ if [[ -d ~/.rd/bin ]]; then
 fi
 
 # Starship prompt
-# glow completion for bash
 if command -v starship &>/dev/null; then
   eval "$(starship init bash)"
+fi
+
+# Incus completion
+if command -v incus &>/dev/null; then
+  eval "$(incus completion bash)"
 fi
 
 eval $(crc oc-env)
