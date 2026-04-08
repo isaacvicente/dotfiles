@@ -6,43 +6,32 @@
 
 ### Variables
 #
-# Logo key. Use Mod1 for Alt or Mod4 for Meta (Windows key)
-set $mod Mod1
-
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
 # Home row direction keys, like vim
 set $left h
 set $down j
 set $up k
 set $right l
-
 # Your preferred terminal emulator
 # Recommends: foot
-set $term alacritty
-
+set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 # Recommends: rofi-wayland
 set $rofi_cmd rofi \
-        -terminal '$term' \
-        -matching fuzzy
+        -terminal '$term'
 # Shows a combined list of the applications with desktop files and
 # executables from PATH.
 # TODO: add window with the next release of rofi-wayland
 set $menu $rofi_cmd -show combi -combi-modes drun#run -modes combi
 
-# Preferred browser
-# set $browser firefox
-# set $browser flatpak run com.google.Chrome
-set $browser google-chrome-stable
-
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-# output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1366x768.png fill
-# output * bg /home/zak/Pictures/Wallpapers/Arikawa_Hime_Holding_C_Programming_Language.jpg fill
-# output * bg /home/zak/Pictures/Wallpapers/Shiomiya_Shiori_Holding_Shy_C_Programming_language_wp.png fill
-output * bg /usr/share/backgrounds/default-dark.png fill
+# Requires: desktop-backgrounds-compat, swaybg, jxl-pixbuf-loader
+output * bg /usr/share/backgrounds/default.jxl fill
 #
 # Example configuration:
 #
@@ -77,17 +66,26 @@ output * bg /usr/share/backgrounds/default-dark.png fill
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
+# Keyboard configuration
+input "type:keyboard" {
+    xkb_layout br,us
+}
+
+# Touchpad configuration
+input "type:touchpad" {
+    tap enabled
+    natural_scroll enabled
+}
+
+# Gestures
+bindgesture swipe:right workspace prev
+bindgesture swipe:left workspace next
+
+# Remove title bar
+default_border none
+
 # Gaps
 gaps inner 3
-
-# Fonts
-font JetBrainsMono Nerd Font Regular 10
-
-# Disable title bar
-default_border pixel 2
-
-# Notification
-exec_always dunst
 
 ### Key bindings
 #
@@ -95,12 +93,12 @@ exec_always dunst
 #
     # Start a terminal
     bindsym $mod+Return exec $term
-    
-    # Start Browser
-    bindsym $mod+n exec $browser
 
     # Kill focused window
     bindsym $mod+Shift+q kill
+
+    # Lock screen
+    bindsym $mod+Escape exec swaylock
 
     # Start your launcher
     bindsym $mod+d exec $menu
@@ -166,12 +164,6 @@ exec_always dunst
     bindsym $mod+Shift+8 move container to workspace number 8
     bindsym $mod+Shift+9 move container to workspace number 9
     bindsym $mod+Shift+0 move container to workspace number 10
-
-    # bindsym $mod+Alt+Right workspace next
-    # bindsym $mod+Alt+Left workspace prev
-    # bindsym $mod+Alt+l workspace next
-    # bindsym $mod+Alt+h workspace prev
-
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
 #
@@ -206,7 +198,9 @@ exec_always dunst
     # You can send windows there and get them back later.
 
     # Move the currently focused window to the scratchpad
-    bindsym $mod+Shift+minus move scratchpad
+    # bindsym $mod+Shift+minus move scratchpad # DEFAULT
+    # https://www.reddit.com/r/swaywm/comments/12tvevb/how_to_setup_a_default_size_for_scratchpad/
+    bindsym $mod+Shift+minus floating enable, resize set width 1366 height 675, move scratchpad
 
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
@@ -236,24 +230,6 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
-# bar {
-#     position top
-
-#     # When the status_command prints a new line to stdout, swaybar updates.
-#     # The default just shows the current date and time.
-#     status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
-
-#     colors {
-#         statusline #ffffff
-#         background #323232
-#         # inactive_workspace #32323200 #32323200 #5c5c5c
-#     }
-# }
-
 # Include configs from 3 locations:
 #  - /usr/share/sway/config.d
 #  - /etc/sway/config.d
@@ -274,7 +250,5 @@ bindsym $mod+r mode "resize"
 # Note the quoting, the $() and the arguments quoting. All the parts are equally
 # important to make the magic work. And if you want to learn the secret behind
 # the trick, it's all in the `wordexp(3)`.
-
-# include '$(/etc/sway/config.d/*.conf "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf")'
+#
 include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "/etc/sway/config.d/*.conf" "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf")'
-# vim: ts=4 sts=4 sw=4 et
