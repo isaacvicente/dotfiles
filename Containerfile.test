@@ -7,14 +7,14 @@ RUN dnf install -y \
     curl \
     wget \
     fontconfig \
-  flatpak \
-  ShellCheck \
+    flatpak \
+    ShellCheck \
     tar \
   && dnf clean all
 
-RUN useradd -m -s /bin/sh tester \
-  && printf 'tester ALL=(ALL) NOPASSWD:ALL\n' > /etc/sudoers.d/tester \
-  && chmod 0440 /etc/sudoers.d/tester
+RUN useradd -m -s /bin/sh dev \
+  && printf 'dev ALL=(ALL) NOPASSWD:ALL\n' > /etc/sudoers.d/dev \
+  && chmod 0440 /etc/sudoers.d/dev
 
-USER tester
+USER dev
 WORKDIR /work/dotfiles
