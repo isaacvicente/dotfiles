@@ -3,10 +3,10 @@
 set -eu
 
 SCRIPT_DIR="$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)"
-# shellcheck source=scripts/lib.sh
-. "$SCRIPT_DIR/lib.sh"
+# shellcheck source=scripts/lib/common.sh
+. "$SCRIPT_DIR/lib/common.sh"
 
-PACKAGE_LIST="$SCRIPT_DIR/packages-fedora.txt"
+PACKAGE_LIST="$SCRIPT_DIR/data/packages-fedora.txt"
 
 require_fedora
 
@@ -14,31 +14,16 @@ if [ ! -f "$PACKAGE_LIST" ]; then
   die "Package list not found: $PACKAGE_LIST"
 fi
 
-echo "Installing packages from $PACKAGE_LIST"
+log_info "Installing packages from $PACKAGE_LIST"
 
-installed_count=0
+# shellcheck disable=SC2046
+set -- $(list_to_args "$PACKAGE_LIST")
 
-while IFS= read -r line || [ -n "$line" ]; do
-  case "$line" in
-    ''|'#'*)
-      continue
-      ;;
-    *)
-      pkg="$(first_word "$line")"
-      if [ -z "$pkg" ]; then
-        continue
-      fi
-
-      echo "- Installing $pkg"
-      as_root dnf install -y "$pkg"
-      installed_count=$((installed_count + 1))
-      ;;
-  esac
-done < "$PACKAGE_LIST"
-
-if [ "$installed_count" -eq 0 ]; then
-  echo "No packages found in $PACKAGE_LIST"
+if [ "$#" -eq 0 ]; then
+  log_ok "No packages found in $PACKAGE_LIST"
   exit 0
 fi
 
-echo "Tools installed successfully ($installed_count packages)."
+as_root dnf install -y "$@"
+
+log_ok "Tools installed"

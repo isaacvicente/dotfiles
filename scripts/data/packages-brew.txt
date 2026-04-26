@@ -1,0 +1,2 @@
+# One package per line. Lines starting with # are ignored.
+starship

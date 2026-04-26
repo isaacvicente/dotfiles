@@ -3,8 +3,8 @@
 set -eu
 
 SCRIPT_DIR="$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)"
-# shellcheck source=scripts/lib.sh
-. "$SCRIPT_DIR/lib.sh"
+# shellcheck source=scripts/lib/common.sh
+. "$SCRIPT_DIR/lib/common.sh"
 
 require_non_root "Run this script as your regular user, not root."
 
@@ -22,9 +22,9 @@ trap cleanup EXIT INT TERM
 
 mkdir -p "$FONT_DIR"
 
-if command -v curl >/dev/null 2>&1; then
+if command_exists curl; then
   curl -fL "$FONT_URL" -o "$archive_path"
-elif command -v wget >/dev/null 2>&1; then
+elif command_exists wget; then
   wget -O "$archive_path" "$FONT_URL"
 else
   echo "Need curl or wget to download fonts." >&2
@@ -33,8 +33,8 @@ fi
 
 tar -xf "$archive_path" -C "$FONT_DIR"
 
-if command -v fc-cache >/dev/null 2>&1; then
+if command_exists fc-cache; then
   fc-cache -f "$HOME/.local/share/fonts"
 fi
 
-echo "JetBrainsMono Nerd Font installed in $FONT_DIR"
+log_ok "JetBrainsMono Nerd Font installed in $FONT_DIR"

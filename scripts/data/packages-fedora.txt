@@ -5,6 +5,7 @@ fd-find
 flatpak
 fzf
 git
+vim
 neovim
 ripgrep
 ShellCheck

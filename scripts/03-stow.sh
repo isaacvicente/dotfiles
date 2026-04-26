@@ -3,18 +3,15 @@
 set -eu
 
 SCRIPT_DIR="$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)"
-# shellcheck source=scripts/lib.sh
-. "$SCRIPT_DIR/lib.sh"
+# shellcheck source=scripts/lib/common.sh
+. "$SCRIPT_DIR/lib/common.sh"
 
 require_non_root "Run this script as your regular user, not root."
 
 REPO_ROOT="$(CDPATH='' cd -- "$SCRIPT_DIR/.." && pwd)"
 SRC_DIR="$REPO_ROOT/src"
 
-if ! command -v stow >/dev/null 2>&1; then
-  echo "GNU stow is required but not installed." >&2
-  exit 1
-fi
+require_cmd "stow" "GNU stow is required but not installed."
 
 backup_bash_files() {
   for file_name in .bashrc .bash_profile; do
@@ -23,10 +20,10 @@ backup_bash_files() {
 
     if [ -f "$source_path" ] && [ ! -L "$source_path" ]; then
       if [ -e "$backup_path" ]; then
-        echo "Skipping $file_name backup: $backup_path already exists"
+        log_info "Skipping $file_name backup: $backup_path already exists"
       else
         mv "$source_path" "$backup_path"
-        echo "Backed up $file_name to $file_name.old"
+        log_info "Backed up $file_name to $file_name.old"
       fi
     fi
   done
@@ -41,8 +38,8 @@ for pkg_path in "$SRC_DIR"/*; do
     backup_bash_files
   fi
 
-  echo "Stowing $pkg"
+  log_info "Stowing $pkg"
   stow -d "$SRC_DIR" -t "$HOME" "$pkg"
 done
 
-echo "All src packages stowed."
+log_ok "Dotfiles stowed"

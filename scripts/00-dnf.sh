@@ -3,8 +3,8 @@
 set -eu
 
 SCRIPT_DIR="$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)"
-# shellcheck source=scripts/lib.sh
-. "$SCRIPT_DIR/lib.sh"
+# shellcheck source=scripts/lib/common.sh
+. "$SCRIPT_DIR/lib/common.sh"
 
 require_fedora
 
@@ -26,14 +26,18 @@ set_dnf_option "max_parallel_downloads" "10"
 
 fedora_version="$(rpm -E %fedora)"
 
-if ! dnf repolist --all | grep -Eq '^rpmfusion-free[[:space:]]'; then
-  as_root dnf install -y "https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-${fedora_version}.noarch.rpm"
-fi
+install_rpmfusion_repo() {
+  repo_name="$1"
+  repo_kind="$2"
 
-if ! dnf repolist --all | grep -Eq '^rpmfusion-nonfree[[:space:]]'; then
-  as_root dnf install -y "https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-${fedora_version}.noarch.rpm"
-fi
+  if ! dnf repolist --all | grep -Eq "^${repo_name}[[:space:]]"; then
+    as_root dnf install -y "https://download1.rpmfusion.org/${repo_kind}/fedora/${repo_name}-release-${fedora_version}.noarch.rpm"
+  fi
+}
+
+install_rpmfusion_repo "rpmfusion-free" "free"
+install_rpmfusion_repo "rpmfusion-nonfree" "nonfree"
 
 as_root dnf group install -y multimedia
 
-echo "dnf configured and RPM Fusion repos installed."
+log_ok "DNF configured and RPM Fusion repos installed"

@@ -1,46 +1,27 @@
-# dotfiles
+# [dotfiles](https://dotfiles.github.io)
 
-This repo was created to keep track of my [dotfiles](https://dotfiles.github.io/).
+Minimal config for a Fedora machine.
 
-## Setup scripts
+## Bootstrap
 
-Single command:
+Run as your regular user (not root):
 
-  sh scripts/bootstrap.sh
+```sh
+git clone https://github.com/isaacvicente/dotfiles.git
+cd dotfiles
+sh scripts/bootstrap.sh
+```
 
-Or run scripts in order:
+`bootstrap.sh` runs all numbered scripts in `scripts/` in order.
 
-  sh scripts/00-dnf.sh
-  sh scripts/01-install-tools.sh
-  sh scripts/02-install-fonts.sh
-  sh scripts/03-stow.sh
-  sh scripts/04-install-flatpaks.sh
+Non-DNF tools (for example `starship`) are installed by the brew step using:
 
-To change the packages installed by `01-install-tools.sh`, edit:
+`scripts/data/packages-brew.txt`
 
-  scripts/packages-fedora.txt
+## Optional validation
 
-To change Flatpak app IDs installed by `04-install-flatpaks.sh`, edit:
+Run the full bootstrap flow in a clean container:
 
-  scripts/flatpaks.txt
-
-## Validate on fresh container
-
-Build a fresh Fedora container and run the full bootstrap flow inside it:
-
-  sh scripts/validate-in-container.sh
-
-This validation also runs `shellcheck` against all setup scripts.
-
-The validator auto-detects container engine in this order: `podman`, then `docker`.
-
-Optional environment variables:
-
-  CONTAINER_ENGINE=podman sh scripts/validate-in-container.sh
-  IMAGE_NAME=my-dotfiles-test sh scripts/validate-in-container.sh
-
-## Install config files with `stow`
-
-  stow -d src -t "$HOME" nvim
-
-> See also: `--adopt` option in `man 8 stow`
+```sh
+sh scripts/dev/validate-in-container.sh
+```

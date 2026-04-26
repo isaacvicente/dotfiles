@@ -5,6 +5,14 @@ die() {
   exit 1
 }
 
+log_info() {
+  echo "[INFO] $1"
+}
+
+log_ok() {
+  echo "[OK] $1"
+}
+
 is_root() {
   [ "$(id -u)" -eq 0 ]
 }
@@ -32,10 +40,23 @@ require_fedora() {
 as_root() {
   if is_root; then
     "$@"
-  elif command -v sudo >/dev/null 2>&1; then
+  elif command_exists sudo; then
     sudo "$@"
   else
     die "This step requires root privileges and sudo was not found."
+  fi
+}
+
+command_exists() {
+  command -v "$1" >/dev/null 2>&1
+}
+
+require_cmd() {
+  cmd="$1"
+  message="${2:-Required command not found: $cmd}"
+
+  if ! command_exists "$cmd"; then
+    die "$message"
   fi
 }
 
@@ -60,18 +81,39 @@ has_list_entries() {
   return 1
 }
 
+list_to_args() {
+  list_file="$1"
+
+  set --
+
+  while IFS= read -r line || [ -n "$line" ]; do
+    case "$line" in
+      ''|'#'*)
+        continue
+        ;;
+      *)
+        entry="$(first_word "$line")"
+        [ -n "$entry" ] || continue
+        set -- "$@" "$entry"
+        ;;
+    esac
+  done < "$list_file"
+
+  printf '%s\n' "$@"
+}
+
 detect_container_engine() {
   if [ -n "${CONTAINER_ENGINE:-}" ]; then
     printf '%s\n' "$CONTAINER_ENGINE"
     return 0
   fi
 
-  if command -v podman >/dev/null 2>&1; then
+  if command_exists podman; then
     printf '%s\n' "podman"
     return 0
   fi
 
-  if command -v docker >/dev/null 2>&1; then
+  if command_exists docker; then
     printf '%s\n' "docker"
     return 0
   fi
