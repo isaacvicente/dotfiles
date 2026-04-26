@@ -24,7 +24,7 @@ To change Flatpak app IDs installed by `04-install-flatpaks.sh`, edit:
 
   scripts/flatpaks.txt
 
-## Validate On Fresh Container
+## Validate on fresh container
 
 Build a fresh Fedora container and run the full bootstrap flow inside it:
 
