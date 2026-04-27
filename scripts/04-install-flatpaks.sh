@@ -23,12 +23,12 @@ fi
 
 if ! flatpak remote-list --columns=name | grep -qx "flathub"; then
   log_info "Adding flathub remote"
-  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 fi
 
 # shellcheck disable=SC2046
 set -- $(list_to_args "$FLATPAK_LIST")
 
-flatpak install --user -y flathub "$@"
+flatpak install flathub "$@" -y
 
 log_ok "Flatpaks installed"
