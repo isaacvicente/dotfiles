@@ -1,2 +1,18 @@
 # One package per line. Lines starting with # are ignored.
 starship
+awscli
+btop
+fd
+fzf
+gh
+incus
+k9s
+krew
+lsd
+neovim
+openshift-cli
+opentofu
+ripgrep
+tealdeer
+tree-sitter-cli
+zoxide

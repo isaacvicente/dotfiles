@@ -1,14 +1,9 @@
 # One package per line. Lines starting with # are ignored.
 curl
 dnf-plugins-core
-fd-find
 flatpak
-fzf
 git
 vim
-neovim
-ripgrep
 ShellCheck
 stow
-tealdeer
 tmux
