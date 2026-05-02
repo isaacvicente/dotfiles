@@ -206,32 +206,32 @@ set termguicolors
 " ---------------------------------------------------------
 
 " Set the gruvbox-material theme
-if &runtimepath =~ 'gruvbox-material'
-    set background=dark
-    let g:gruvbox_material_background = 'hard'
-    silent! colorscheme gruvbox-material
-else
-    colorscheme habamax
-endif
-
-" Or... set the rosepine theme
-" if &runtimepath =~ 'rosepine'
+" if &runtimepath =~ 'gruvbox-material'
 "     set background=dark
-"     silent! colorscheme rosepine_moon
+"     let g:gruvbox_material_background = 'hard'
+"     silent! colorscheme gruvbox-material
 " else
 "     colorscheme habamax
 " endif
+
+" Or... set the rosepine theme
+if &runtimepath =~ 'rosepine'
+    set background=dark
+    silent! colorscheme rosepine
+else
+    colorscheme habamax
+endif
 
 " ---------------------------------------------------------
 " Status line
 " ---------------------------------------------------------
 
 " Or... set the gruvbox-material theme provided by https://github.com/sainnhe/gruvbox-material/blob/master/doc/gruvbox-material.txt
-if &runtimepath =~ 'gruvbox-material' && &runtimepath =~ 'lightline.vim'
-    let g:lightline = {'colorscheme': 'gruvbox_material'} 
-endif
-
-
-" if &runtimepath =~ 'rosepine' && &runtimepath =~ 'lightline.vim'
-"     let g:lightline = {'colorscheme': 'rosepine_moon'} 
+" if &runtimepath =~ 'gruvbox-material' && &runtimepath =~ 'lightline.vim'
+"     let g:lightline = {'colorscheme': 'gruvbox_material'} 
 " endif
+
+
+if &runtimepath =~ 'rosepine' && &runtimepath =~ 'lightline.vim'
+    let g:lightline = {'colorscheme': 'rosepine'} 
+endif
