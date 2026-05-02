@@ -190,6 +190,9 @@ nnoremap d "_d
 nnoremap D "_D
 vnoremap d "_d
 
+"" Toggle UndoTree
+nnoremap <leader>u :UndotreeToggle<CR>
+
 " ---------------------------------------------------------
 " GUI related
 " ---------------------------------------------------------
