@@ -1,0 +1,86 @@
+# ~/.zshrc
+
+# XDG Base Directory global variables
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+mkdir -p "$XDG_STATE_HOME"/bash
+export HISTFILE="$XDG_STATE_HOME"/bash/history
+
+export PATH=~/.local/bin:$PATH
+
+alias ls='ls --color=always'
+
+autoload -U +X bashcompinit && bashcompinit
+autoload -U +X compinit && compinit
+setopt interactive_comments
+
+# Avoid duplicates in Bash `history`..
+export HISTCONTROL=ignoredups:erasedups
+
+# After each command, save and reload history
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
+# Initialization of zoxide
+if command -v zoxide &>/dev/null; then
+  eval "$(zoxide init zsh)"
+fi
+
+# Initialization of zoxide
+if command -v starship &>/dev/null; then
+  eval "$(starship init zsh)"
+fi
+
+# Source the ~/.aliases file
+if [[ -f ~/.aliases ]]; then
+  source ~/.aliases
+fi
+
+if [[ -f "$XDG_CONFIG_HOME/git/git-prompt.sh" ]]; then
+  source "$XDG_CONFIG_HOME/git/git-prompt.sh"
+fi
+
+if [[ -f ~/.work ]]; then
+  source ~/.work
+fi
+
+# run: openstack complete > ~/.openstack_completion.sh
+[ -f ~/.openstack_completion.sh ] && source ~/.openstack_completion.sh
+
+_autosuggestions_file=/usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+if [[ -f $_autosuggestions_file ]]; then
+  source $_autosuggestions_file
+fi
+
+# Initialization of fzf
+if command -v fzf &>/dev/null; then
+  source <(fzf --zsh)
+fi
+
+# nvim alias
+if command -v nvim &>/dev/null; then
+  alias n='nvim'
+fi
+
+# vim alias
+if command -v nvim &>/dev/null; then
+  alias v='vim'
+fi
+
+# source: <https://unix.stackexchange.com/questions/147563/how-do-i-repeat-the-last-command-without-using-the-arrow-keys>
+bindkey ' ' magic-space
+
+# aws-cli completion
+if command -v aws_completer &>/dev/null; then
+  complete -C '/usr/local/bin/aws_completer' aws
+fi
+
+# Terraform completion
+if command -v terraform &>/dev/null; then
+  terraform -install-autocomplete 2>/dev/null
+fi
+
+# vim: filetype=sh
