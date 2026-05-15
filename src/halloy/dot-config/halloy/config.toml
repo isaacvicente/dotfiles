@@ -1,0 +1,23 @@
+theme = "rose-pine"
+
+[servers.oftc]
+nickname = "isaacvicente"
+nick_password_file = ".vault/oftc"
+server = "irc.oftc.net"
+port = 6697
+channels = ["#openstack-dev", "#openstack-kolla", "#openstack-ironic", "#openstack-neutron"]
+chathistory = true
+
+[actions.buffer]
+click_channel_name = "replace-pane"
+click_highlight = "replace-pane"
+click_username = "replace-pane"
+local = "replace-pane"
+message_channel = "replace-pane"
+message_user = "replace-pane"
+
+[actions.sidebar]
+buffer = "replace-pane"
+
+[buffer.chathistory]
+infinite_scroll = true

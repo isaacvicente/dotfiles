@@ -1,0 +1,5 @@
+cursor-style = block
+cursor-style-blink = false
+theme = iTerm2 Pastel Dark Background
+background-opacity = 0.6
+background-blur-radius = 90

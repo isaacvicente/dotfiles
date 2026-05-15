@@ -1,13 +1,27 @@
-# dotfiles
+# [dotfiles](https://dotfiles.github.io)
 
-This repo was created to keep track of my [dotfiles](https://dotfiles.github.io/).
+Minimal config for a Fedora machine.
 
-## Install fonts
+## Bootstrap
 
-    . scripts/install-fonts.sh
+Run as your regular user (not root):
 
-## Install config files with `stow`
+```sh
+git clone https://github.com/isaacvicente/dotfiles.git
+cd dotfiles
+sh scripts/bootstrap.sh
+```
 
-    stow stow/
+`bootstrap.sh` runs all numbered scripts in `scripts/` in order.
 
-> See also: `--adopt` option in `man 8 stow`
+Non-DNF tools (for example `starship`) are installed by the brew step using:
+
+`scripts/data/packages-brew.txt`
+
+## Optional validation
+
+Run the full bootstrap flow in a clean container:
+
+```sh
+sh scripts/dev/validate-in-container.sh
+```

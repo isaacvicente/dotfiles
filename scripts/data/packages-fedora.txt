@@ -1,0 +1,9 @@
+# One package per line. Lines starting with # are ignored.
+curl
+dnf-plugins-core
+flatpak
+git
+vim
+ShellCheck
+stow
+tmux

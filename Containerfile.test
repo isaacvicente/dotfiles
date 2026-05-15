@@ -1,0 +1,20 @@
+FROM fedora:latest
+
+# Packages needed to run and validate the dotfiles bootstrap flow.
+RUN dnf install -y \
+    sudo \
+    stow \
+    curl \
+    wget \
+    fontconfig \
+    flatpak \
+    ShellCheck \
+    tar \
+  && dnf clean all
+
+RUN useradd -m -s /bin/sh dev \
+  && printf 'dev ALL=(ALL) NOPASSWD:ALL\n' > /etc/sudoers.d/dev \
+  && chmod 0440 /etc/sudoers.d/dev
+
+USER dev
+WORKDIR /work/dotfiles
