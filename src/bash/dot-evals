@@ -1,0 +1,30 @@
+# Brew -- must be at the top
+brew_bin=/home/linuxbrew/.linuxbrew/bin/brew
+test -f $brew_bin && eval "$($brew_bin shellenv bash)"
+
+# I want a colorful `ls`
+if command -v dircolors &>/dev/null; then
+  eval "$(dircolors)"
+fi
+
+# Initialization of zoxide
+if command -v zoxide &>/dev/null; then
+  eval "$(zoxide init bash)"
+fi
+
+# glow completion for bash
+if command -v glow &>/dev/null; then
+  eval "$(glow completion bash)"
+fi
+
+# Starship prompt
+if command -v starship &>/dev/null; then
+  eval "$(starship init bash)"
+fi
+
+# Incus completion
+if command -v incus &>/dev/null; then
+  eval "$(incus completion bash)"
+fi
+
+# vim: set filetype=sh :

@@ -17,6 +17,10 @@ opt.clipboard = ""
 -- Disable Snacks.animate animations
 vim.g.snacks_animate = false
 
+-- New ui2
+-- https://neovim.io/doc/user/news-0.12/#_ui
+require("vim._core.ui2").enable()
+
 -- vim.diagnostic.config({
 --   virtual_lines = {
 --     current_line = true,
