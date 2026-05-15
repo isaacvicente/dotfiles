@@ -16,38 +16,10 @@ export HISTFILE="$XDG_STATE_HOME"/bash/history
 
 export PATH=~/.local/bin:$PATH
 
-# I want a colorful `ls`
-if command -v dircolors &>/dev/null; then
-  eval "$(dircolors)"
-fi
-
-# Initialization of zoxide
-if command -v zoxide &>/dev/null; then
-  eval "$(zoxide init bash)"
-fi
-
-# glow completion for bash
-if command -v glow &>/dev/null; then
-  eval "$(glow completion bash)"
-fi
-
-## Bash functions (https://wiki.archlinux.org/title/Bash/Functions)
-# cd and ls in one
-cl() {
-  local dir="$1"
-  local dir="${dir:=$HOME}"
-  if [[ -d "$dir" ]]; then
-    cd "$dir" >/dev/null
-    ls --color=auto
-  else
-    echo "bash: cl: $dir: Directory not found"
-  fi
-}
+[ -f ~/.evals ] && source ~/.evals
 
 ## Source the ~/.aliases file
-if [[ -f ~/.aliases ]]; then
-  source ~/.aliases
-fi
+[ -f ~/.aliases ] && source ~/.aliases
 
 # ~~~~~~~~~~ Bash prompt ~~~~~~~~~~
 
@@ -100,26 +72,8 @@ fi
 
 [ -f $XDG_CONFIG_HOME/fzf/key-bindings.bash ] && source $XDG_CONFIG_HOME/fzf/key-bindings.bash
 [ -f $XDG_CONFIG_HOME/fzf/completion.bash ] && source $XDG_CONFIG_HOME/fzf/completion.bash
+[ -f $XDG_CONFIG_HOME/fzf/config ] && export FZF_DEFAULT_OPTS_FILE=$XDG_CONFIG_HOME/fzf/config
+
 # openstack auto completion for bash
 # run: openstack complete --shell bash > ~/.openstack_completion.bash
 [ -f ~/.openstack_completion.bash ] && source ~/.openstack_completion.bash
-
-if [[ -d ~/.fzf/bin ]]; then
-  export PATH=~/.fzf/bin:$PATH
-fi
-
-if [[ -d ~/.rd/bin ]]; then
-  export PATH=~/.rd/bin:$PATH
-fi
-
-# Starship prompt
-if command -v starship &>/dev/null; then
-  eval "$(starship init bash)"
-fi
-
-# Incus completion
-if command -v incus &>/dev/null; then
-  eval "$(incus completion bash)"
-fi
-
-eval $(crc oc-env)

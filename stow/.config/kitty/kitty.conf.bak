@@ -8,9 +8,9 @@
 
 # JetBrains Nerd Font
 font_family      JetBrainsMono Nerd Font
-bold_font        JetBrains Mono Bold Nerd Font Complete
-italic_font      JetBrains Mono Italic Nerd Font Complete
-bold_italic_font JetBrains Mono Bold Italic Nerd Font Complete
+bold_font        JetBrains Mono Bold Nerd Font
+italic_font      JetBrains Mono Italic Nerd Font
+bold_italic_font JetBrains Mono Bold Italic Nerd Font
 
 # FiraCode Nerd Font
 # font_family      FiraCode Nerd Font
@@ -1360,7 +1360,7 @@ shell_integration enabled
 #: }}}
 
 #: OS specific tweaks {{{
-wayland_titlebar_color background
+# wayland_titlebar_color background
 
 #: The color of the kitty window's titlebar on Wayland systems with
 #: client side window decorations such as GNOME. A value of system
@@ -2194,6 +2194,6 @@ linux_display_server wayland
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Gruvbox Dark
 include current-theme.conf
 # END_KITTY_THEME
