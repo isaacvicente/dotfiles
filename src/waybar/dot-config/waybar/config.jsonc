@@ -12,11 +12,10 @@
         "sway/scratchpad"
     ],
     "modules-center": [
-        "sway/window",
         "custom/media"
     ],
     "modules-right": [
-        // "idle_inhibitor",
+        "idle_inhibitor",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
@@ -24,7 +23,6 @@
         "memory",
         "temperature",
         "backlight",
-        "sway/language",
         "battery",
         "clock",
         "tray",
@@ -131,8 +129,8 @@
     "battery": {
         "states": {
             // "good": 95,
-            "warning": 30,
-            "critical": 15
+            "warning": 50,
+            "critical": 30
         },
         "format": "{capacity}% {icon}",
         "format-full": "{capacity}% {icon}",
