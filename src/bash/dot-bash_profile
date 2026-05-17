@@ -15,6 +15,11 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
+# https://wiki.archlinux.org/title/SSH_keys#Start_ssh-agent_with_systemd_user
+if [[ -z "${SSH_CONNECTION}" ]]; then
+    export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+fi
+
 # Fuck vi, I want Vim
 export EDITOR=vim
 

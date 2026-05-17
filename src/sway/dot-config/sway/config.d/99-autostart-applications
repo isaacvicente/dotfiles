@@ -1,3 +1,0 @@
-# Enable GNOME Keyring
-exec /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
-

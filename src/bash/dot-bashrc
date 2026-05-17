@@ -11,6 +11,10 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
+if [ -z "$SSH_AUTH_SOCK" ]; then
+  export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/keyring/ssh"
+fi
+
 mkdir -p "$XDG_STATE_HOME"/bash
 export HISTFILE="$XDG_STATE_HOME"/bash/history
 
@@ -72,7 +76,7 @@ fi
 
 [ -f $XDG_CONFIG_HOME/fzf/key-bindings.bash ] && source $XDG_CONFIG_HOME/fzf/key-bindings.bash
 [ -f $XDG_CONFIG_HOME/fzf/completion.bash ] && source $XDG_CONFIG_HOME/fzf/completion.bash
-[ -f $XDG_CONFIG_HOME/fzf/config ] && export FZF_DEFAULT_OPTS_FILE=$XDG_CONFIG_HOME/fzf/config
+# [ -f $XDG_CONFIG_HOME/fzf/config ] && export FZF_DEFAULT_OPTS_FILE=$XDG_CONFIG_HOME/fzf/config
 
 # openstack auto completion for bash
 # run: openstack complete --shell bash > ~/.openstack_completion.bash

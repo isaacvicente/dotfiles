@@ -51,4 +51,8 @@ fi
 # Openstack
 alias o='openstack'
 
+# Vim and Neovim
+alias v='vim'
+alias n='nvim'
+
 # vim: ft=sh
