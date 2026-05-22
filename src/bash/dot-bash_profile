@@ -64,5 +64,3 @@ export ANDROID_HOME="$XDG_DATA_HOME/android"
 
 # For ansible configuration
 export ANSIBLE_CONFIG="$XDG_CONFIG_HOME/ansible"
-
-complete -C /usr/local/bin/terraform terraform

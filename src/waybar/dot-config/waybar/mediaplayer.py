@@ -1,16 +1,16 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import gi
-gi.require_version("Playerctl", "2.0")
 from gi.repository import Playerctl, GLib
 from gi.repository.Playerctl import Player
 import argparse
 import logging
 import sys
 import signal
-import gi
 import json
 import os
 from typing import List
+
+gi.require_version("Playerctl", "2.0")
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +18,6 @@ def signal_handler(sig, frame):
     logger.info("Received signal to stop, exiting")
     sys.stdout.write("\n")
     sys.stdout.flush()
-    # loop.quit()
     sys.exit(0)
 
 
@@ -112,17 +111,22 @@ class PlayerManager:
         logger.debug(f"Metadata changed for player {player.props.player_name}")
         player_name = player.props.player_name
         artist = player.get_artist()
-        artist = artist.replace("&", "&amp;")
         title = player.get_title()
-        title = title.replace("&", "&amp;")
+
+        if artist is not None:
+            artist = artist.replace("&", "&amp;")
+        if title is not None:
+            title = title.replace("&", "&amp;")
 
         track_info = ""
-        if player_name == "spotify" and "mpris:trackid" in metadata.keys() and ":ad:" in player.props.metadata["mpris:trackid"]:
+        if player_name == "spotify" and metadata and "mpris:trackid" in metadata.keys() and ":ad:" in metadata["mpris:trackid"]:
             track_info = "Advertisement"
         elif artist is not None and title is not None:
             track_info = f"{artist} - {title}"
-        else:
+        elif title is not None:
             track_info = title
+        elif artist is not None:
+            track_info = artist
 
         if track_info:
             if player.props.status == "Playing":
@@ -158,9 +162,9 @@ def parse_arguments():
     # Increase verbosity with every occurrence of -v
     parser.add_argument("-v", "--verbose", action="count", default=0)
 
-    parser.add_argument("-x", "--exclude", "- Comma-separated list of excluded player")
+    parser.add_argument("-x", "--exclude", help="Comma-separated list of excluded player")
 
-    # Define for which player we"re listening
+    # Define for which player we're listening
     parser.add_argument("--player")
 
     parser.add_argument("--enable-logging", action="store_true")
