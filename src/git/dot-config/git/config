@@ -14,3 +14,5 @@
 	prompt = false
 [difftool]
 	prompt = false
+[gitreview]
+	username = isaacvicente
