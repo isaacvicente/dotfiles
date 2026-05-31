@@ -5,7 +5,7 @@ nickname = "isaacvicente"
 nick_password_file = ".vault/oftc"
 server = "irc.oftc.net"
 port = 6697
-channels = ["#openstack-dev", "#openstack-kolla", "#openstack-ironic", "#openstack-neutron"]
+channels = ["#openstack-dev", "#openstack-kolla", "#openstack-ironic", "#openstack-neutron", "#openstack-nova", "#openstack-cinder"]
 chathistory = true
 
 [actions.buffer]
