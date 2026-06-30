@@ -33,7 +33,6 @@ call plug#begin()
 
 " Make sure you use single quotes
 
-Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify',
@@ -225,16 +224,3 @@ else
     colorscheme habamax
 endif
 
-" ---------------------------------------------------------
-" Status line
-" ---------------------------------------------------------
-
-" Or... set the gruvbox-material theme provided by https://github.com/sainnhe/gruvbox-material/blob/master/doc/gruvbox-material.txt
-" if &runtimepath =~ 'gruvbox-material' && &runtimepath =~ 'lightline.vim'
-"     let g:lightline = {'colorscheme': 'gruvbox_material'} 
-" endif
-
-
-if &runtimepath =~ 'rosepine' && &runtimepath =~ 'lightline.vim'
-    let g:lightline = {'colorscheme': 'rosepine'} 
-endif

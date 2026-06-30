@@ -20,6 +20,9 @@ vim.g.snacks_animate = false
 -- Disable autoformat globally on file
 vim.g.autoformat = false
 
+-- Always show :intro buffer
+vim.opt.shortmess:remove("I")
+
 -- New ui2
 -- https://neovim.io/doc/user/news-0.12/#_ui
 require("vim._core.ui2").enable()
